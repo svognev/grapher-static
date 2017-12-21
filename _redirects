@@ -584,8 +584,6 @@
 /grapher/neonatal-mortality-rate-per-1000-live-births.config.json /grapher/neonatal-mortality-rate.config.json 302
 /grapher/coal-consumption-1965-2016 /grapher/coal-consumption-by-region 302
 /grapher/coal-consumption-1965-2016.config.json /grapher/coal-consumption-by-region.config.json 302
-/grapher/fertility-vs-child-mortality-by religion /grapher/fertility-vs-child-mortality-by-religion 302
-/grapher/fertility-vs-child-mortality-by religion.config.json /grapher/fertility-vs-child-mortality-by-religion.config.json 302
 /grapher/global-fossil-fuel-consumption-1800-2015 /grapher/global-fossil-fuel-consumption 302
 /grapher/global-fossil-fuel-consumption-1800-2015.config.json /grapher/global-fossil-fuel-consumption.config.json 302
 /grapher/global-primary-energy-consumption-1800-2015 /grapher/global-primary-energy-consumption 302
