@@ -796,6 +796,8 @@
 /grapher/parents-who-favor-spanking-to-discipline-a-child /grapher/parents-who-agree-with-spanking-to-discipline-a-child 302
 /grapher/all-staff-compensation-as-share-of-total-expenditure-in-public-institutions.config.json /grapher/staff-compensation-as-share-of-total-expenditure-in-public-education-all-levels.config.json 302
 /grapher/all-staff-compensation-as-share-of-total-expenditure-in-public-institutions /grapher/staff-compensation-as-share-of-total-expenditure-in-public-education-all-levels 302
+/grapher/People experiencing homelessness in the USA, by sheltered status.config.json /grapher/number-of-homeless-people-by-shelter-status.config.json 302
+/grapher/People experiencing homelessness in the USA, by sheltered status /grapher/number-of-homeless-people-by-shelter-status 302
 /grapher/16.config.json /grapher/suicide-rates-by-country.config.json
 /grapher/16 /grapher/suicide-rates-by-country 302
 /grapher/20.config.json /grapher/average-height-of-men-for-selected-countries.config.json
@@ -1360,8 +1362,8 @@
 /grapher/424 /grapher/extreme-poverty-EU-2008 302
 /grapher/425.config.json /grapher/share-of-population-who-have-ever-been-homeless-2003.config.json
 /grapher/425 /grapher/share-of-population-who-have-ever-been-homeless-2003 302
-/grapher/427.config.json /grapher/People experiencing homelessness in the USA, by sheltered status.config.json
-/grapher/427 /grapher/People experiencing homelessness in the USA, by sheltered status 302
+/grapher/427.config.json /grapher/number-of-homeless-people-by-shelter-status.config.json
+/grapher/427 /grapher/number-of-homeless-people-by-shelter-status 302
 /grapher/434.config.json /grapher/homeless-per-capita-us.config.json
 /grapher/434 /grapher/homeless-per-capita-us 302
 /grapher/435.config.json /grapher/number-of-unsheltered-homeless-people-per-100000-population.config.json
