@@ -4,5 +4,5 @@
 /grapher/assets/*
   Cache-Control: public, max-age=31556926
 
-/grapher/*.png?v=*
+/grapher/exports/*
   Cache-Control: public, max-age=31556926
