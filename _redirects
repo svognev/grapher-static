@@ -791,8 +791,8 @@
 /grapher/587 /grapher/energy-use-per-capita-vs-gdp-per-capita 302
 /grapher/589.config.json /grapher/fish-and-seafood-consumption-per-capita.config.json
 /grapher/589 /grapher/fish-and-seafood-consumption-per-capita 302
-/grapher/590.config.json /grapher/fish-and-seafood-consumption-vs-gdp-per-capita-int-.config.json
-/grapher/590 /grapher/fish-and-seafood-consumption-vs-gdp-per-capita-int- 302
+/grapher/590.config.json /grapher/fish-consumption-vs-gdp-per-capita.config.json
+/grapher/590 /grapher/fish-consumption-vs-gdp-per-capita 302
 /grapher/591.config.json /grapher/national-gdp.config.json
 /grapher/591 /grapher/national-gdp 302
 /grapher/592.config.json /grapher/shares-of-gdp-by-economic-sector.config.json
@@ -3171,8 +3171,8 @@
 /grapher/global-co2-emissions-if-everyone-lived-like-the-average-citizen-in /grapher/global-co-emissions-if-everyone-lived-like-the-average-citizen-in 302
 /grapher/health-effects-of-energy-production-per-twh.config.json /grapher/health-effects-of-energy-production.config.json 302
 /grapher/health-effects-of-energy-production-per-twh /grapher/health-effects-of-energy-production 302
-/grapher/fish-and-seafood-consumption-vs-gdp-per-capita-ppp-int-.config.json /grapher/fish-and-seafood-consumption-vs-gdp-per-capita-int-.config.json 302
-/grapher/fish-and-seafood-consumption-vs-gdp-per-capita-ppp-int- /grapher/fish-and-seafood-consumption-vs-gdp-per-capita-int- 302
+/grapher/fish-and-seafood-consumption-vs-gdp-per-capita-ppp-int-.config.json /grapher/fish-consumption-vs-gdp-per-capita.config.json 302
+/grapher/fish-and-seafood-consumption-vs-gdp-per-capita-ppp-int- /grapher/fish-consumption-vs-gdp-per-capita 302
 /grapher/co-emissions-per-capita-vs-gdp-per-capita-ppp-international-.config.json /grapher/co-emissions-per-capita-vs-gdp-per-capita-international-.config.json 302
 /grapher/co-emissions-per-capita-vs-gdp-per-capita-ppp-international- /grapher/co-emissions-per-capita-vs-gdp-per-capita-international- 302
 /grapher/comparison-between-original-series-and-owid-new-series.config.json /grapher/various-measures-of-health-expenditure-as-share-of-gdp.config.json 302
@@ -3791,3 +3791,5 @@
 /grapher/parents-who-favor-spanking-to-discipline-a-child /grapher/parents-who-agree-with-spanking-to-discipline-a-child 302
 /grapher/all-staff-compensation-as-share-of-total-expenditure-in-public-institutions.config.json /grapher/staff-compensation-as-share-of-total-expenditure-in-public-education-all-levels.config.json 302
 /grapher/all-staff-compensation-as-share-of-total-expenditure-in-public-institutions /grapher/staff-compensation-as-share-of-total-expenditure-in-public-education-all-levels 302
+/grapher/fish-and-seafood-consumption-vs-gdp-per-capita-int-.config.json /grapher/fish-consumption-vs-gdp-per-capita.config.json 302
+/grapher/fish-and-seafood-consumption-vs-gdp-per-capita-int- /grapher/fish-consumption-vs-gdp-per-capita 302
