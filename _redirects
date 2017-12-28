@@ -1,4 +1,4 @@
-/grapher/latest /grapher/metal-production-over-the-long-term 302
+/grapher/latest /grapher/long-term-metal-production 302
 /grapher/16.config.json /grapher/suicide-rates-by-country.config.json
 /grapher/16 /grapher/suicide-rates-by-country 302
 /grapher/20.config.json /grapher/average-height-of-men-for-selected-countries.config.json
@@ -1697,8 +1697,8 @@
 /grapher/1134 /grapher/total-fertility-rate-by-world-region-including-UN-projections-through-2100 302
 /grapher/1135.config.json /grapher/decade-in-which-smallpox-ceased-to-be-endemic-by-country.config.json
 /grapher/1135 /grapher/decade-in-which-smallpox-ceased-to-be-endemic-by-country 302
-/grapher/1136.config.json /grapher/metal-production-over-the-long-term.config.json
-/grapher/1136 /grapher/metal-production-over-the-long-term 302
+/grapher/1136.config.json /grapher/long-term-metal-production.config.json
+/grapher/1136 /grapher/long-term-metal-production 302
 /grapher/1137.config.json /grapher/global-aluminium-production-vs-aluminium-price-index.config.json
 /grapher/1137 /grapher/global-aluminium-production-vs-aluminium-price-index 302
 /grapher/1138.config.json /grapher/global-gold-production-vs-gold-price-index.config.json
@@ -2993,6 +2993,10 @@
 /grapher/1839 /grapher/dalys-disability-adjusted-life-years-all-ages-and-sexes 302
 /grapher/1840.config.json /grapher/nitrous-oxide-emissions.config.json
 /grapher/1840 /grapher/nitrous-oxide-emissions 302
+/grapher/1841.config.json /grapher/gold-production.config.json
+/grapher/1841 /grapher/gold-production 302
+/grapher/1842.config.json /grapher/population-in-countries-by-per-capita-household-income.config.json
+/grapher/1842 /grapher/population-in-countries-by-per-capita-household-income 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004.config.json /grapher/male-and-female-suicide-rate.config.json 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004 /grapher/male-and-female-suicide-rate 302
 /grapher/the-share-of-the-population-suffering-from-depression-around-the-world-221.config.json /grapher/share-of-the-population-suffering-from-depression.config.json 302
@@ -3793,3 +3797,5 @@
 /grapher/all-staff-compensation-as-share-of-total-expenditure-in-public-institutions /grapher/staff-compensation-as-share-of-total-expenditure-in-public-education-all-levels 302
 /grapher/fish-and-seafood-consumption-vs-gdp-per-capita-int-.config.json /grapher/fish-consumption-vs-gdp-per-capita.config.json 302
 /grapher/fish-and-seafood-consumption-vs-gdp-per-capita-int- /grapher/fish-consumption-vs-gdp-per-capita 302
+/grapher/metal-production-over-the-long-term.config.json /grapher/long-term-metal-production.config.json 302
+/grapher/metal-production-over-the-long-term /grapher/long-term-metal-production 302
