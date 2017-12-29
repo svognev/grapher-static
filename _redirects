@@ -1697,8 +1697,6 @@
 /grapher/1134 /grapher/total-fertility-rate-by-world-region-including-UN-projections-through-2100 302
 /grapher/1135.config.json /grapher/decade-in-which-smallpox-ceased-to-be-endemic-by-country.config.json
 /grapher/1135 /grapher/decade-in-which-smallpox-ceased-to-be-endemic-by-country 302
-/grapher/1136.config.json /grapher/long-term-metal-production.config.json
-/grapher/1136 /grapher/long-term-metal-production 302
 /grapher/1137.config.json /grapher/global-aluminium-production-vs-aluminium-price-index.config.json
 /grapher/1137 /grapher/global-aluminium-production-vs-aluminium-price-index 302
 /grapher/1138.config.json /grapher/global-gold-production-vs-gold-price-index.config.json
@@ -3797,5 +3795,3 @@
 /grapher/all-staff-compensation-as-share-of-total-expenditure-in-public-institutions /grapher/staff-compensation-as-share-of-total-expenditure-in-public-education-all-levels 302
 /grapher/fish-and-seafood-consumption-vs-gdp-per-capita-int-.config.json /grapher/fish-consumption-vs-gdp-per-capita.config.json 302
 /grapher/fish-and-seafood-consumption-vs-gdp-per-capita-int- /grapher/fish-consumption-vs-gdp-per-capita 302
-/grapher/metal-production-over-the-long-term.config.json /grapher/long-term-metal-production.config.json 302
-/grapher/metal-production-over-the-long-term /grapher/long-term-metal-production 302
