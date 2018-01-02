@@ -1697,8 +1697,6 @@
 /grapher/1134 /grapher/total-fertility-rate-by-world-region-including-UN-projections-through-2100 302
 /grapher/1135.config.json /grapher/decade-in-which-smallpox-ceased-to-be-endemic-by-country.config.json
 /grapher/1135 /grapher/decade-in-which-smallpox-ceased-to-be-endemic-by-country 302
-/grapher/1138.config.json /grapher/global-gold-production-vs-gold-price-index.config.json
-/grapher/1138 /grapher/global-gold-production-vs-gold-price-index 302
 /grapher/1139.config.json /grapher/beef-and-buffalo-meat-consumption-per-person.config.json
 /grapher/1139 /grapher/beef-and-buffalo-meat-consumption-per-person 302
 /grapher/1140.config.json /grapher/projections-of-the-number-of-children-per-woman-by-education-scenario.config.json
@@ -2993,6 +2991,10 @@
 /grapher/1841 /grapher/gold-production 302
 /grapher/1842.config.json /grapher/population-in-countries-by-per-capita-household-income.config.json
 /grapher/1842 /grapher/population-in-countries-by-per-capita-household-income 302
+/grapher/1843.config.json /grapher/metal-production-long-term.config.json
+/grapher/1843 /grapher/metal-production-long-term 302
+/grapher/1844.config.json /grapher/suicide-vs-homicide-rate.config.json
+/grapher/1844 /grapher/suicide-vs-homicide-rate 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004.config.json /grapher/male-and-female-suicide-rate.config.json 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004 /grapher/male-and-female-suicide-rate 302
 /grapher/the-share-of-the-population-suffering-from-depression-around-the-world-221.config.json /grapher/share-of-the-population-suffering-from-depression.config.json 302
