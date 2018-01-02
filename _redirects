@@ -1659,8 +1659,8 @@
 /grapher/1108 /grapher/global-warming-potential-of-greenhouse-gases-over-100-year-timescale-gwp 302
 /grapher/1109.config.json /grapher/global-fatalities-from-aviation-accidents-and-hijackings.config.json
 /grapher/1109 /grapher/global-fatalities-from-aviation-accidents-and-hijackings 302
-/grapher/1110.config.json /grapher/number-of-fatal-airliner-accidents-and-hijacking-incidents.config.json
-/grapher/1110 /grapher/number-of-fatal-airliner-accidents-and-hijacking-incidents 302
+/grapher/1110.config.json /grapher/fatal-airliner-accidents.config.json
+/grapher/1110 /grapher/fatal-airliner-accidents 302
 /grapher/1111.config.json /grapher/number-of-air-transport-passengers-carried.config.json
 /grapher/1111 /grapher/number-of-air-transport-passengers-carried 302
 /grapher/1116.config.json /grapher/global-demand-for-education-global-population-younger-than-15-until-2100-according-to-wittgenstein-centres-ssp2-ft.config.json
@@ -3795,3 +3795,5 @@
 /grapher/all-staff-compensation-as-share-of-total-expenditure-in-public-institutions /grapher/staff-compensation-as-share-of-total-expenditure-in-public-education-all-levels 302
 /grapher/fish-and-seafood-consumption-vs-gdp-per-capita-int-.config.json /grapher/fish-consumption-vs-gdp-per-capita.config.json 302
 /grapher/fish-and-seafood-consumption-vs-gdp-per-capita-int- /grapher/fish-consumption-vs-gdp-per-capita 302
+/grapher/number-of-fatal-airliner-accidents-and-hijacking-incidents.config.json /grapher/fatal-airliner-accidents.config.json 302
+/grapher/number-of-fatal-airliner-accidents-and-hijacking-incidents /grapher/fatal-airliner-accidents 302
