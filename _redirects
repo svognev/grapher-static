@@ -3017,6 +3017,8 @@
 /grapher/1854 /grapher/crude-oil-exports 302
 /grapher/1855.config.json /grapher/natural-gas-lng-exports.config.json
 /grapher/1855 /grapher/natural-gas-lng-exports 302
+/grapher/1859.config.json /grapher/natural-gas-pipeline-exports.config.json
+/grapher/1859 /grapher/natural-gas-pipeline-exports 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004.config.json /grapher/male-and-female-suicide-rate.config.json 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004 /grapher/male-and-female-suicide-rate 302
 /grapher/the-share-of-the-population-suffering-from-depression-around-the-world-221.config.json /grapher/share-of-the-population-suffering-from-depression.config.json 302
