@@ -3023,6 +3023,8 @@
 /grapher/1860 /grapher/natural-resource-rents 302
 /grapher/1861.config.json /grapher/ores-and-metals-exports.config.json
 /grapher/1861 /grapher/ores-and-metals-exports 302
+/grapher/1862.config.json /grapher/fuel-exports.config.json
+/grapher/1862 /grapher/fuel-exports 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004.config.json /grapher/male-and-female-suicide-rate.config.json 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004 /grapher/male-and-female-suicide-rate 302
 /grapher/the-share-of-the-population-suffering-from-depression-around-the-world-221.config.json /grapher/share-of-the-population-suffering-from-depression.config.json 302
