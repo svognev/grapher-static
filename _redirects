@@ -3027,6 +3027,8 @@
 /grapher/1862 /grapher/fuel-exports 302
 /grapher/1863.config.json /grapher/natural-disaster-deaths.config.json
 /grapher/1863 /grapher/natural-disaster-deaths 302
+/grapher/1864.config.json /grapher/average-gdp-growth-rate-1960-2011-versus-gdp-per-capita-in-1960.config.json
+/grapher/1864 /grapher/average-gdp-growth-rate-1960-2011-versus-gdp-per-capita-in-1960 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004.config.json /grapher/male-and-female-suicide-rate.config.json 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004 /grapher/male-and-female-suicide-rate 302
 /grapher/the-share-of-the-population-suffering-from-depression-around-the-world-221.config.json /grapher/share-of-the-population-suffering-from-depression.config.json 302
