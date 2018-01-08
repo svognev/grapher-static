@@ -1097,8 +1097,8 @@
 /grapher/784 /grapher/carbon-emission-intensity-vs-gdp-per-capita 302
 /grapher/785.config.json /grapher/share-of-land-area-used-for-agriculture.config.json
 /grapher/785 /grapher/share-of-land-area-used-for-agriculture 302
-/grapher/787.config.json /grapher/the-change-of-cereal-yield-vs-the-change-of-land-used-for-cereal-production-1961-2014.config.json
-/grapher/787 /grapher/the-change-of-cereal-yield-vs-the-change-of-land-used-for-cereal-production-1961-2014 302
+/grapher/787.config.json /grapher/change-of-cereal-yield-vs-land-used.config.json
+/grapher/787 /grapher/change-of-cereal-yield-vs-land-used 302
 /grapher/789.config.json /grapher/share-of-land-area-used-for-arable-agriculture.config.json
 /grapher/789 /grapher/share-of-land-area-used-for-arable-agriculture 302
 /grapher/790.config.json /grapher/share-of-children-younger-than-5-who-are-underweight-for-their-age.config.json
@@ -3311,10 +3311,10 @@
 /grapher/tax-revenue-and-public-health-spending-in-developing-countries-per-capita-ppp-in /grapher/tax-revenue-per-capita-and-public-health-spending-per-capita-in-developing-countries-in 302
 /grapher/access-to-electricity-of-population.config.json /grapher/share-of-the-population-with-access-to-electricity.config.json 302
 /grapher/access-to-electricity-of-population /grapher/share-of-the-population-with-access-to-electricity 302
-/grapher/cereal-yield-vs-land-under-cereal-production.config.json /grapher/the-change-of-cereal-yield-vs-the-change-of-land-used-for-cereal-production-1961-2014.config.json 302
-/grapher/cereal-yield-vs-land-under-cereal-production /grapher/the-change-of-cereal-yield-vs-the-change-of-land-used-for-cereal-production-1961-2014 302
-/grapher/index-of-cereal-yield-vs-land-used-for-cereal-production-1961-2014.config.json /grapher/the-change-of-cereal-yield-vs-the-change-of-land-used-for-cereal-production-1961-2014.config.json 302
-/grapher/index-of-cereal-yield-vs-land-used-for-cereal-production-1961-2014 /grapher/the-change-of-cereal-yield-vs-the-change-of-land-used-for-cereal-production-1961-2014 302
+/grapher/cereal-yield-vs-land-under-cereal-production.config.json /grapher/change-of-cereal-yield-vs-land-used.config.json 302
+/grapher/cereal-yield-vs-land-under-cereal-production /grapher/change-of-cereal-yield-vs-land-used 302
+/grapher/index-of-cereal-yield-vs-land-used-for-cereal-production-1961-2014.config.json /grapher/change-of-cereal-yield-vs-land-used.config.json 302
+/grapher/index-of-cereal-yield-vs-land-used-for-cereal-production-1961-2014 /grapher/change-of-cereal-yield-vs-land-used 302
 /grapher/prevalence-of-night-blindness-in-children.config.json /grapher/prevalence-of-night-blindness-in-pre-school-children.config.json 302
 /grapher/prevalence-of-night-blindness-in-children /grapher/prevalence-of-night-blindness-in-pre-school-children 302
 /grapher/share-of-land-area-used-for-permanent-meadows-and-pastures-1961-2014.config.json /grapher/share-of-land-area-used-for-permanent-meadows-and-pastures.config.json 302
@@ -3841,3 +3841,5 @@
 /grapher/fish-and-seafood-consumption-vs-gdp-per-capita-int- /grapher/fish-consumption-vs-gdp-per-capita 302
 /grapher/number-of-fatal-airliner-accidents-and-hijacking-incidents.config.json /grapher/fatal-airliner-accidents.config.json 302
 /grapher/number-of-fatal-airliner-accidents-and-hijacking-incidents /grapher/fatal-airliner-accidents 302
+/grapher/the-change-of-cereal-yield-vs-the-change-of-land-used-for-cereal-production-1961-2014.config.json /grapher/change-of-cereal-yield-vs-land-used.config.json 302
+/grapher/the-change-of-cereal-yield-vs-the-change-of-land-used-for-cereal-production-1961-2014 /grapher/change-of-cereal-yield-vs-land-used 302
