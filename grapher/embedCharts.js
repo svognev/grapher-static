@@ -1,6 +1,6 @@
 
         window.App = {};
-        window.Global = { rootUrl: '/grapher' };
+        window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
 
         var link = document.createElement('link');
         link.type = 'text/css';
