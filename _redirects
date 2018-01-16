@@ -3055,8 +3055,8 @@
 /grapher/1880 /grapher/agricultural-general-services-support 302
 /grapher/1881.config.json /grapher/mismanaged-plastic-waste.config.json
 /grapher/1881 /grapher/mismanaged-plastic-waste 302
-/grapher/1882.config.json /grapher/gender-gap-in-average-wages.config.json
-/grapher/1882 /grapher/gender-gap-in-average-wages 302
+/grapher/1882.config.json /grapher/gender-gap-in-average-wages-ilo.config.json
+/grapher/1882 /grapher/gender-gap-in-average-wages-ilo 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004.config.json /grapher/male-and-female-suicide-rate.config.json 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004 /grapher/male-and-female-suicide-rate 302
 /grapher/the-share-of-the-population-suffering-from-depression-around-the-world-221.config.json /grapher/share-of-the-population-suffering-from-depression.config.json 302
@@ -3861,3 +3861,5 @@
 /grapher/number-of-fatal-airliner-accidents-and-hijacking-incidents /grapher/fatal-airliner-accidents 302
 /grapher/the-change-of-cereal-yield-vs-the-change-of-land-used-for-cereal-production-1961-2014.config.json /grapher/change-of-cereal-yield-vs-land-used.config.json 302
 /grapher/the-change-of-cereal-yield-vs-the-change-of-land-used-for-cereal-production-1961-2014 /grapher/change-of-cereal-yield-vs-land-used 302
+/grapher/gender-gap-in-average-wages.config.json /grapher/gender-gap-in-average-wages-ilo.config.json 302
+/grapher/gender-gap-in-average-wages /grapher/gender-gap-in-average-wages-ilo 302
