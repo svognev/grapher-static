@@ -2261,8 +2261,8 @@
 /grapher/1450 /grapher/alcohol-consumption-vs-gdp-per-capita 302
 /grapher/1452.config.json /grapher/annual-number-of-deaths-by-specific-cause-or-risk-factor.config.json
 /grapher/1452 /grapher/annual-number-of-deaths-by-specific-cause-or-risk-factor 302
-/grapher/1454.config.json /grapher/the-gender-wage-gap.config.json
-/grapher/1454 /grapher/the-gender-wage-gap 302
+/grapher/1454.config.json /grapher/gender-wage-gap-oecd.config.json
+/grapher/1454 /grapher/gender-wage-gap-oecd 302
 /grapher/1455.config.json /grapher/household-air-pollution-deaths-by-region.config.json
 /grapher/1455 /grapher/household-air-pollution-deaths-by-region 302
 /grapher/1456.config.json /grapher/annual-deaths-from-outdoor-air-pollution-by-region.config.json
@@ -3863,3 +3863,5 @@
 /grapher/the-change-of-cereal-yield-vs-the-change-of-land-used-for-cereal-production-1961-2014 /grapher/change-of-cereal-yield-vs-land-used 302
 /grapher/gender-gap-in-average-wages.config.json /grapher/gender-gap-in-average-wages-ilo.config.json 302
 /grapher/gender-gap-in-average-wages /grapher/gender-gap-in-average-wages-ilo 302
+/grapher/the-gender-wage-gap.config.json /grapher/gender-wage-gap-oecd.config.json 302
+/grapher/the-gender-wage-gap /grapher/gender-wage-gap-oecd 302
