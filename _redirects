@@ -2987,8 +2987,6 @@
 /grapher/1840 /grapher/nitrous-oxide-emissions 302
 /grapher/1841.config.json /grapher/gold-production.config.json
 /grapher/1841 /grapher/gold-production 302
-/grapher/1842.config.json /grapher/population-in-countries-by-per-capita-household-income.config.json
-/grapher/1842 /grapher/population-in-countries-by-per-capita-household-income 302
 /grapher/1843.config.json /grapher/metal-production-long-term.config.json
 /grapher/1843 /grapher/metal-production-long-term 302
 /grapher/1844.config.json /grapher/suicide-vs-homicide-rate.config.json
@@ -3057,6 +3055,8 @@
 /grapher/1881 /grapher/mismanaged-plastic-waste 302
 /grapher/1882.config.json /grapher/gender-gap-in-average-wages-ilo.config.json
 /grapher/1882 /grapher/gender-gap-in-average-wages-ilo 302
+/grapher/1883.config.json /grapher/population-by-per-capita-household-income.config.json
+/grapher/1883 /grapher/population-by-per-capita-household-income 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004.config.json /grapher/male-and-female-suicide-rate.config.json 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004 /grapher/male-and-female-suicide-rate 302
 /grapher/the-share-of-the-population-suffering-from-depression-around-the-world-221.config.json /grapher/share-of-the-population-suffering-from-depression.config.json 302
