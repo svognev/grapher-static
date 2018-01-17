@@ -10,4 +10,8 @@
                     margin: 0;
                     width: 100%;
                     height: 100%;
-                }</style><script src="/grapher/embedCharts.js"></script></head><body class="singleChart"><figure data-grapher-src="/grapher/child-mortality-by-income-level-of-country"></figure></body></html>
+                }</style><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/child-mortality-by-income-level-of-country"></figure><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+                    window.App = {};
+                    window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
+                    window.Grapher.embedAll();
+                </script></body></html>
