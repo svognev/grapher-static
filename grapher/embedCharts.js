@@ -5,7 +5,7 @@
         var link = document.createElement('link');
         link.type = 'text/css';
         link.rel = 'stylesheet';
-        link.href = '/grapher/assets/charts.js?v=charts.bundle.f0723246f1cac7a43395.css';
+        link.href = '/grapher/assets/charts.css?v=charts.bundle.f0723246f1cac7a43395.css';
         document.head.appendChild(link);
 
         var hasPolyfill = false;
