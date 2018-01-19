@@ -3101,6 +3101,8 @@
 /grapher/1904 /grapher/statistical-capacity-indicator 302
 /grapher/1905.config.json /grapher/increase-in-life-expectancy-per-day.config.json
 /grapher/1905 /grapher/increase-in-life-expectancy-per-day 302
+/grapher/1906.config.json /grapher/increase-in-life-expectancy-by-month.config.json
+/grapher/1906 /grapher/increase-in-life-expectancy-by-month 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004.config.json /grapher/male-and-female-suicide-rate.config.json 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004 /grapher/male-and-female-suicide-rate 302
 /grapher/the-share-of-the-population-suffering-from-depression-around-the-world-221.config.json /grapher/share-of-the-population-suffering-from-depression.config.json 302
