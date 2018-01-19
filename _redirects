@@ -3083,6 +3083,8 @@
 /grapher/1895 /grapher/temperature-anomaly 302
 /grapher/1896.config.json /grapher/urban-and-rural-poverty-by-national-poverty-lines.config.json
 /grapher/1896 /grapher/urban-and-rural-poverty-by-national-poverty-lines 302
+/grapher/1897.config.json /grapher/net-enrolment-rate-pre-primary.config.json
+/grapher/1897 /grapher/net-enrolment-rate-pre-primary 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004.config.json /grapher/male-and-female-suicide-rate.config.json 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004 /grapher/male-and-female-suicide-rate 302
 /grapher/the-share-of-the-population-suffering-from-depression-around-the-world-221.config.json /grapher/share-of-the-population-suffering-from-depression.config.json 302
