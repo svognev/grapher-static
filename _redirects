@@ -3093,6 +3093,8 @@
 /grapher/1900 /grapher/uranium-production 302
 /grapher/1901.config.json /grapher/diamond-production.config.json
 /grapher/1901 /grapher/diamond-production 302
+/grapher/1902.config.json /grapher/water-productivity.config.json
+/grapher/1902 /grapher/water-productivity 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004.config.json /grapher/male-and-female-suicide-rate.config.json 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004 /grapher/male-and-female-suicide-rate 302
 /grapher/the-share-of-the-population-suffering-from-depression-around-the-world-221.config.json /grapher/share-of-the-population-suffering-from-depression.config.json 302
