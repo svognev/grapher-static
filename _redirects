@@ -3115,6 +3115,8 @@
 /grapher/1911 /grapher/urban-poverty-at-national-poverty-lines 302
 /grapher/1912.config.json /grapher/rural-population-poverty-at-national-poverty-lines.config.json
 /grapher/1912 /grapher/rural-population-poverty-at-national-poverty-lines 302
+/grapher/1913.config.json /grapher/disaster-risk-reduction-progress.config.json
+/grapher/1913 /grapher/disaster-risk-reduction-progress 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004.config.json /grapher/male-and-female-suicide-rate.config.json 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004 /grapher/male-and-female-suicide-rate 302
 /grapher/the-share-of-the-population-suffering-from-depression-around-the-world-221.config.json /grapher/share-of-the-population-suffering-from-depression.config.json 302
