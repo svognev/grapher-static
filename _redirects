@@ -3131,6 +3131,8 @@
 /grapher/1919 /grapher/surgeons-per-100000 302
 /grapher/1920.config.json /grapher/disability-adjusted-life-years-depressive-disorders.config.json
 /grapher/1920 /grapher/disability-adjusted-life-years-depressive-disorders 302
+/grapher/1921.config.json /grapher/disability-adjusted-life-years-depressive-disorders-age-std-rate.config.json
+/grapher/1921 /grapher/disability-adjusted-life-years-depressive-disorders-age-std-rate 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004.config.json /grapher/male-and-female-suicide-rate.config.json 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004 /grapher/male-and-female-suicide-rate 302
 /grapher/the-share-of-the-population-suffering-from-depression-around-the-world-221.config.json /grapher/share-of-the-population-suffering-from-depression.config.json 302
