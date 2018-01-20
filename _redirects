@@ -3121,6 +3121,8 @@
 /grapher/1914 /grapher/energy-intensity-by-sector 302
 /grapher/1915.config.json /grapher/health-expenditure-government-expenditure.config.json
 /grapher/1915 /grapher/health-expenditure-government-expenditure 302
+/grapher/1916.config.json /grapher/government-expenditure-on-education.config.json
+/grapher/1916 /grapher/government-expenditure-on-education 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004.config.json /grapher/male-and-female-suicide-rate.config.json 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004 /grapher/male-and-female-suicide-rate 302
 /grapher/the-share-of-the-population-suffering-from-depression-around-the-world-221.config.json /grapher/share-of-the-population-suffering-from-depression.config.json 302
