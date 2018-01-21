@@ -3145,6 +3145,10 @@
 /grapher/1926 /grapher/the-number-of-deaths-from-tetanus-by-world-region 302
 /grapher/1927.config.json /grapher/share-of-population-suffering-from-depression.config.json
 /grapher/1927 /grapher/share-of-population-suffering-from-depression 302
+/grapher/1928.config.json /grapher/prevalence-of-anxiety-disorders-vs-gdp-per-capita.config.json
+/grapher/1928 /grapher/prevalence-of-anxiety-disorders-vs-gdp-per-capita 302
+/grapher/1929.config.json /grapher/anxiety-disorders-vs-gdp.config.json
+/grapher/1929 /grapher/anxiety-disorders-vs-gdp 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004.config.json /grapher/male-and-female-suicide-rate.config.json 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004 /grapher/male-and-female-suicide-rate 302
 /grapher/the-share-of-the-population-suffering-from-depression-around-the-world-221.config.json /grapher/share-of-the-population-suffering-from-depression.config.json 302
