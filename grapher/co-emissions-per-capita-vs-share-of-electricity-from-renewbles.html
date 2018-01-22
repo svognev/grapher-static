@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/co-emissions-per-capita-vs-share-of-electricity-from-renewbles"></figure><noscript id="fallback"><img src="/grapher/exports/co-emissions-per-capita-vs-share-of-electricity-from-renewbles.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1421,"map":{"projection":"World","legendStepSize":20,"colorSchemeLabels":[],"colorSchemeValues":[],"defaultProjection":"World","colorSchemeMinValue":0,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"chart","slug":"co-emissions-per-capita-vs-share-of-electricity-from-renewbles","type":"ScatterPlot","title":"CO₂ emissions per capita vs. share of electricity from renewbles","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"maxTime":2013,"minTime":2013,"version":1,"subtitle":"Carbon dioxide (CO₂) emissions per capita, measured in tonnes per year versus the share of total electricity output from renewables","hasMapTab":false,"originUrl":"","stackMode":"absolute","dimensions":[{"id":9003,"unit":null,"order":0,"chartId":1421,"property":"y","shortUnit":"tonnes","tolerance":null,"targetYear":null,"variableId":2060,"displayName":"CO₂ emissions per capita","isProjection":null,"conversionFactor":null},{"id":9004,"unit":null,"order":1,"chartId":1421,"property":"x","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":2123,"displayName":null,"isProjection":null,"conversionFactor":null},{"id":9005,"unit":null,"order":2,"chartId":1421,"property":"size","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":72,"displayName":null,"isProjection":null,"conversionFactor":null},{"id":9006,"unit":null,"order":3,"chartId":1421,"property":"color","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":123,"displayName":null,"isProjection":null,"conversionFactor":null}],"isAutoSlug":true,"hasChartTab":true,"isPublished":true,"selectedData":[],"internalNotes":"","addCountryMode":"add-country"};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/co-emissions-per-capita-vs-share-of-electricity-from-renewbles.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/fossil-fuel-price-index"></figure><noscript id="fallback"><img src="/grapher/exports/fossil-fuel-price-index.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":653,"map":{"projection":"World","targetYear":1987,"variableId":1924,"timeTolerance":1,"legendStepSize":20,"baseColorScheme":"BuGn","colorSchemeInvert":false,"colorSchemeLabels":[],"colorSchemeValues":[],"defaultProjection":"World","legendDescription":"","customColorsActive":false,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"chart","note":"","slug":"fossil-fuel-price-index","type":"LineChart","title":"Fossil fuel price index","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear","labelDistance":-10},"version":1,"subtitle":"Average global prices of oil, natural gas and coal, measured as an energy index where prices in 2000=100.","hasMapTab":false,"originUrl":"https://ourworldindata.org/wp-content/uploads/2016/08/OECD_SkillPremium-768x327.png","stackMode":null,"dimensions":[{"id":10929,"unit":null,"order":0,"chartId":653,"property":"y","shortUnit":null,"tolerance":5,"targetYear":null,"variableId":1925,"displayName":"Natural Gas","isProjection":false,"conversionFactor":null},{"id":10930,"unit":null,"order":1,"chartId":653,"property":"y","shortUnit":null,"tolerance":5,"targetYear":null,"variableId":1926,"displayName":"Coal","isProjection":false,"conversionFactor":null},{"id":10931,"unit":null,"order":2,"chartId":653,"property":"y","shortUnit":null,"tolerance":5,"targetYear":null,"variableId":1924,"displayName":"Oil","isProjection":false,"conversionFactor":null}],"entityType":"country","hideLegend":false,"sourceDesc":"BP Statistical Review 2016","hasChartTab":true,"isPublished":true,"selectedData":[{"index":0,"entityId":355},{"index":1,"entityId":355},{"index":2,"entityId":355}],"internalNotes":"","addCountryMode":"add-country","hideRelativeToggle":false};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/fossil-fuel-price-index.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

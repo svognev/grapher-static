@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/suicide-rate-vs-income-inequality"></figure><noscript id="fallback"><img src="/grapher/exports/suicide-rate-vs-income-inequality.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1924,"map":{"projection":"World","colorSchemeLabels":[],"colorSchemeValues":[],"defaultProjection":"World","colorSchemeMinValue":0,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"chart","slug":"suicide-rate-vs-income-inequality","type":"ScatterPlot","title":"Suicide rate vs. income inequality","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"maxTime":2010,"minTime":2010,"version":4,"hasMapTab":false,"stackMode":"absolute","dimensions":[{"property":"y","variableId":3462},{"unit":" ","property":"x","shortUnit":" ","variableId":3530,"displayName":"Income inequality (Gini; higher values = higher inequality)","saveToVariable":true,"conversionFactor":0.01},{"property":"size","variableId":72},{"property":"color","variableId":123}],"hasChartTab":true,"isPublished":true,"selectedData":[]};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/suicide-rate-vs-income-inequality.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/energy-use-per-capita"></figure><noscript id="fallback"><img src="/grapher/exports/energy-use-per-capita.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":586,"map":{"projection":"World","targetYear":2014,"variableId":1810,"timeTolerance":1,"legendStepSize":20,"baseColorScheme":"OrRd","isManualBuckets":true,"colorSchemeInvert":false,"colorSchemeLabels":["","","","","","","","","","","",""],"colorSchemeValues":[250,500,750,1000,2000,2500,3000,4000,5000,7500,10000,25000],"defaultProjection":"World","legendDescription":"Energy use per capita (kg oil equivalent)","customColorsActive":false,"colorSchemeMinValue":0,"customNumericColors":[],"customCategoryColors":[],"customCategoryLabels":[],"customHiddenCategories":[]},"tab":"chart","note":"","slug":"energy-use-per-capita","type":"LineChart","title":"Energy use per capita","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear","labelDistance":-1},"version":1,"subtitle":"Annual average per capita energy consumption is measured in kilowatt-hours per person per year.","hasMapTab":true,"originUrl":"https://ourworldindata.org/energy-production-and-changing-energy-sources/","stackMode":null,"dimensions":[{"id":6637,"unit":null,"order":0,"chartId":586,"property":"y","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":2087,"displayName":null,"isProjection":null,"conversionFactor":null}],"entityType":"country","hideLegend":false,"sourceDesc":"World Bank, World Development Indicators","hasChartTab":true,"isPublished":true,"selectedData":[{"index":0,"entityId":94},{"index":0,"entityId":37},{"index":0,"entityId":171},{"index":0,"entityId":157},{"index":0,"entityId":65},{"index":0,"entityId":137},{"index":0,"entityId":14},{"index":0,"entityId":1},{"index":0,"entityId":13},{"index":0,"entityId":355}],"internalNotes":"","addCountryMode":"add-country","hideRelativeToggle":false};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/energy-use-per-capita.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

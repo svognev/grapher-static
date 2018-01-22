@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/womens-weekly-earnings-as-a-percentage-of-mens-by-age-bureau-of-labor-statistics-2017"></figure><noscript id="fallback"><img src="/grapher/exports/womens-weekly-earnings-as-a-percentage-of-mens-by-age-bureau-of-labor-statistics-2017.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1701,"map":{"projection":"World","variableId":66151,"colorSchemeLabels":[],"colorSchemeValues":[],"defaultProjection":"World","colorSchemeMinValue":0,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"chart","slug":"womens-weekly-earnings-as-a-percentage-of-mens-by-age-bureau-of-labor-statistics-2017","type":"LineChart","title":"Ratio of female-to-male wages by age, US","xAxis":{"scaleType":"linear"},"yAxis":{"max":100,"min":0,"scaleType":"linear"},"version":3,"subtitle":"Women's weekly earnings as a share of men's, by age group. Earnings ratios are the weekly median earnings of full time workers' wage and salary.","hasMapTab":false,"originUrl":"","stackMode":"absolute","dimensions":[{"property":"y","variableId":66151}],"sourceDesc":"US Bureau of Labor Statistics (2017)","hasChartTab":true,"isPublished":true,"selectedData":[{"index":0,"entityId":36381},{"index":0,"entityId":36382},{"index":0,"entityId":36383},{"index":0,"entityId":36384}],"internalNotes":"","addCountryMode":"add-country","hideTitleAnnotation":true};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/womens-weekly-earnings-as-a-percentage-of-mens-by-age-bureau-of-labor-statistics-2017.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

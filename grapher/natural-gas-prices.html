@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/natural-gas-prices"></figure><noscript id="fallback"><img src="/grapher/exports/natural-gas-prices.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1370,"map":{"projection":"World","legendStepSize":20,"colorSchemeLabels":[],"colorSchemeValues":[],"defaultProjection":"World","customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"chart","slug":"natural-gas-prices","type":"LineChart","title":"Natural gas prices, US$ per MWh","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"version":1,"subtitle":"Natural gas prices, measured in US dollars per megawatt-hour (MWh) by country or regional source.","hasMapTab":false,"originUrl":"https://ourworldindata.org/fossil-fuels/","stackMode":"absolute","dimensions":[{"id":8680,"unit":"US dollars per MWh","order":0,"chartId":1370,"property":"y","shortUnit":"$","tolerance":null,"targetYear":null,"variableId":42725,"displayName":null,"isProjection":null,"conversionFactor":3.4}],"hasChartTab":true,"isPublished":true,"selectedData":[{"index":0,"entityId":35449},{"index":0,"entityId":44},{"index":0,"entityId":14},{"index":0,"entityId":3818},{"index":0,"entityId":1},{"index":0,"entityId":13}],"internalNotes":"","addCountryMode":"add-country"};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/natural-gas-prices.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

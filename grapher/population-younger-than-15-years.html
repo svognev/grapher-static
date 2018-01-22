@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/population-younger-than-15-years"></figure><noscript id="fallback"><img src="/grapher/exports/population-younger-than-15-years.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1528,"map":{"projection":"World","targetYear":1980,"variableId":2020,"timeTolerance":1,"legendStepSize":20,"baseColorScheme":"BuGn","colorSchemeInvert":false,"colorSchemeLabels":[],"colorSchemeValues":[],"defaultProjection":"World","legendDescription":"","customColorsActive":false,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"chart","note":"","slug":"population-younger-than-15-years","type":"StackedArea","title":"Population younger than 15 years","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear","labelDistance":-1},"version":1,"hasMapTab":false,"originUrl":"","stackMode":null,"dimensions":[{"id":10079,"unit":null,"order":0,"chartId":1528,"property":"y","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":8412,"displayName":null,"isProjection":null,"conversionFactor":null}],"hideLegend":false,"sourceDesc":"UN Population Division (2015 Revision)","hasChartTab":true,"isPublished":true,"selectedData":[{"color":"#932834","index":0,"entityId":355}],"internalNotes":"","addCountryMode":"change-country","hideRelativeToggle":true};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/population-younger-than-15-years.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

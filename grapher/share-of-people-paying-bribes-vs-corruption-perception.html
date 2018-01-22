@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/share-of-people-paying-bribes-vs-corruption-perception"></figure><noscript id="fallback"><img src="/grapher/exports/share-of-people-paying-bribes-vs-corruption-perception.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":356,"map":{"projection":"World","targetYear":2012,"variableId":1405,"timeTolerance":1,"baseColorScheme":"BuGn","colorSchemeInvert":false,"colorSchemeLabels":[],"colorSchemeValues":[],"defaultProjection":"World","legendDescription":"","customColorsActive":false,"colorSchemeMinValue":0,"customNumericColors":[],"customCategoryColors":[],"customCategoryLabels":[],"customHiddenCategories":[]},"tab":"chart","note":"","slug":"share-of-people-paying-bribes-vs-corruption-perception","type":"ScatterPlot","title":"Share of people paying bribes vs. Corruption perception","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"suffix":"%","scaleType":"linear","labelDistance":0},"version":1,"subtitle":"The vertical axis shows scores in the Corruption Perception Index (2013 data, lower values reflect higher perceived corruption). The horizontal axis shows the percentage of people who report having paid a bribe to access public services in the last year (2013 data). Colors reflect world regions.","hasMapTab":false,"originUrl":"https://ourworldindata.org/corruption/","stackMode":null,"dimensions":[{"property":"x","tolerance":0,"targetYear":2013,"variableId":1405,"displayName":"Corruption Perception Index","isProjection":false},{"unit":"%","property":"y","tolerance":5,"variableId":1420,"displayName":"Share of people who have bribed","isProjection":false},{"property":"color","variableId":123},{"property":"size","variableId":72}],"entityType":"country","hideLegend":true,"hasChartTab":true,"isPublished":true,"hideTimeline":true,"selectedData":[],"internalNotes":"","addCountryMode":"add-country","hideRelativeToggle":false};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/share-of-people-paying-bribes-vs-corruption-perception.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

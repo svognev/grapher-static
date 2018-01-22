@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/fatality-rates-due-to-lightning-in-the-us"></figure><noscript id="fallback"><img src="/grapher/exports/fatality-rates-due-to-lightning-in-the-us.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":546,"map":{"mode":"specific","projection":"World","targetYear":1980,"timeRanges":[],"variableId":1683,"defaultYear":1980,"isColorblind":false,"timelineMode":"slider","timeTolerance":1,"legendStepSize":20,"targetYearMode":"latest","baseColorScheme":"BuGn","colorSchemeInvert":false,"colorSchemeLabels":[],"colorSchemeValues":[],"defaultProjection":"World","legendDescription":"","legendOrientation":"portrait","customColorsActive":false,"customNumericColors":[],"customCategoryColors":[],"customCategoryLabels":[],"customHiddenCategories":[]},"tab":"chart","note":"","slug":"fatality-rates-due-to-lightning-in-the-us","type":"LineChart","logos":["OWD"],"title":"Fatality rates due to lightning in the US","units":"[{\"property\":\"y\",\"visible\":true,\"title\":\"\",\"unit\":\"deaths per million\",\"format\":\"\"}]","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear","labelDistance":-10,"canChangeScaleType":true},"margins":{"top":10,"left":60,"right":10,"bottom":10},"version":1,"subtitle":"Annual death rate per million.","timeline":null,"hasMapTab":false,"originUrl":"https://ourworldindata.org/natural-catastrophes/","stackMode":null,"dimensions":[{"id":539,"unit":"deaths per million","order":0,"chartId":546,"property":"y","shortUnit":null,"tolerance":5,"targetYear":null,"variableId":1683,"displayName":"Lightning","isProjection":false,"conversionFactor":null}],"entityType":"country","hideLegend":true,"hasChartTab":true,"isPublished":true,"selectedData":[{"color":"#ca2628","index":0,"entityId":13}],"internalNotes":"","addCountryMode":"disabled","activeLegendKeys":null,"group-by-variables":false,"hideRelativeToggle":false};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/fatality-rates-due-to-lightning-in-the-us.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

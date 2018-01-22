@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/demand-for-family-planning"></figure><noscript id="fallback"><img src="/grapher/exports/demand-for-family-planning.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1606,"map":{"projection":"World","targetYear":2016,"variableId":3359,"timeTolerance":10,"legendStepSize":20,"baseColorScheme":"YlGn","isManualBuckets":true,"colorSchemeLabels":[],"colorSchemeValues":[10,20,30,40,50,60,70,80,90,100],"defaultProjection":"World","colorSchemeMinValue":0,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"map","slug":"demand-for-family-planning","type":"LineChart","title":"Demand for family planning satisfied by modern methods","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"version":1,"subtitle":"The percentage of married women ages 15-49 years whose need for family planning is satisfied with modern methods.","hasMapTab":true,"originUrl":"","stackMode":"absolute","dimensions":[{"id":11071,"unit":null,"order":0,"chartId":1606,"property":"y","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":3359,"displayName":null,"isProjection":null,"conversionFactor":null}],"hasChartTab":true,"isPublished":true,"selectedData":[{"index":0,"entityId":137},{"index":0,"entityId":302},{"index":0,"entityId":107},{"index":0,"entityId":101},{"index":0,"entityId":28}],"internalNotes":"","addCountryMode":"add-country"};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/demand-for-family-planning.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

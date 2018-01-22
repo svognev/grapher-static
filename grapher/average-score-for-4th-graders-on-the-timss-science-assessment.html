@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/average-score-for-4th-graders-on-the-timss-science-assessment"></figure><noscript id="fallback"><img src="/grapher/exports/average-score-for-4th-graders-on-the-timss-science-assessment.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1301,"map":{"projection":"World","targetYear":2015,"variableId":39982,"legendStepSize":20,"baseColorScheme":"YlGn","isManualBuckets":true,"colorSchemeLabels":[],"colorSchemeValues":[250,300,350,400,450,500,550,600],"defaultProjection":"World","colorSchemeMinValue":190,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"map","slug":"average-score-for-4th-graders-on-the-timss-science-assessment","type":"LineChart","title":"Average score for 4th graders on the TIMSS science assessment","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"version":1,"subtitle":"The scale centerpoint is 500.","hasMapTab":true,"originUrl":"https://ourworldindata.org/quality-of-education","stackMode":"absolute","dimensions":[{"id":8211,"unit":null,"order":0,"chartId":1301,"property":"y","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":39982,"displayName":null,"isProjection":null,"conversionFactor":null}],"isAutoSlug":true,"hasChartTab":true,"isPublished":true,"selectedData":[{"index":0,"entityId":8},{"index":0,"entityId":110}],"internalNotes":"","addCountryMode":"add-country"};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/average-score-for-4th-graders-on-the-timss-science-assessment.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

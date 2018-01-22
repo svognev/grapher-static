@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/total-fertilizer-production-by-nutrient-tonnes"></figure><noscript id="fallback"><img src="/grapher/exports/total-fertilizer-production-by-nutrient-tonnes.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1153,"map":{"projection":"World","legendStepSize":20,"colorSchemeLabels":[],"colorSchemeValues":[],"defaultProjection":"World","customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"chart","slug":"total-fertilizer-production-by-nutrient-tonnes","type":"StackedArea","title":"Total fertilizer production by nutrient, tonnes","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"version":1,"subtitle":"Total fertilizer production by nutrient type (nitrogen, phosphate and potash/potassium), measured in tonnes per year.","hasMapTab":false,"originUrl":"https://ourworldindata.org/fertilizer-and-pesticides/","stackMode":"absolute","dimensions":[{"id":6484,"unit":"","order":0,"chartId":1153,"property":"y","shortUnit":null,"tolerance":5,"targetYear":null,"variableId":38488,"displayName":"Phosphate fertilizer","isProjection":false,"conversionFactor":null},{"id":6485,"unit":"","order":1,"chartId":1153,"property":"y","shortUnit":null,"tolerance":5,"targetYear":null,"variableId":38490,"displayName":"Potash (potassium) fertilizer","isProjection":false,"conversionFactor":null},{"id":6486,"unit":"","order":2,"chartId":1153,"property":"y","shortUnit":null,"tolerance":5,"targetYear":null,"variableId":38483,"displayName":"Nitrogen fertilizer","isProjection":false,"conversionFactor":null}],"entityType":"country/region","isAutoSlug":true,"sourceDesc":"UN Food and Agricultural Organization (FAO)","hasChartTab":true,"isPublished":true,"selectedData":[{"color":"#f07f59","index":1,"entityId":355},{"color":"#ca2628","index":0,"entityId":355},{"color":"#3360a9","index":2,"entityId":355}],"internalNotes":"","addCountryMode":"change-country"};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/total-fertilizer-production-by-nutrient-tonnes.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

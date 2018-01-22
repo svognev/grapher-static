@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/share-of-population-suffering-from-schizophrenia"></figure><noscript id="fallback"><img src="/grapher/exports/share-of-population-suffering-from-schizophrenia.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1932,"map":{"projection":"World","targetYear":2016,"variableId":66353,"baseColorScheme":"GnBu","isManualBuckets":true,"colorSchemeLabels":[],"colorSchemeValues":[0.05,0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.45],"defaultProjection":"World","colorSchemeMinValue":0,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"map","slug":"share-of-population-suffering-from-schizophrenia","type":"LineChart","title":"Share of population suffering from schizophrenia","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"version":2,"hasMapTab":true,"stackMode":"absolute","dimensions":[{"property":"y","variableId":66353}],"isAutoSlug":true,"hasChartTab":true,"isPublished":true,"selectedData":[{"index":0,"entityId":19},{"index":0,"entityId":164},{"index":0,"entityId":3897},{"index":0,"entityId":13},{"index":0,"entityId":44},{"index":0,"entityId":12}],"addCountryMode":"add-country"};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/share-of-population-suffering-from-schizophrenia.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

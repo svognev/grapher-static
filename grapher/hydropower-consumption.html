@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/hydropower-consumption"></figure><noscript id="fallback"><img src="/grapher/exports/hydropower-consumption.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1419,"map":{"projection":"World","targetYear":2016,"variableId":42735,"equalSizeBins":true,"legendStepSize":20,"baseColorScheme":"GnBu","isManualBuckets":true,"colorSchemeLabels":[],"colorSchemeValues":[10,25,50,75,100,250,500,750,1000,1250],"defaultProjection":"World","legendDescription":"Hydropower consumption","colorSchemeMinValue":0,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"map","slug":"hydropower-consumption","type":"LineChart","title":"Hydropower consumption, terawatt-hours","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"version":1,"subtitle":"Annual hydropower consumption, measured in terawatt-hours (TWh) per year.","hasMapTab":true,"originUrl":"","stackMode":"absolute","dimensions":[{"id":9892,"unit":null,"order":0,"chartId":1419,"property":"y","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":42735,"displayName":null,"isProjection":null,"conversionFactor":null}],"hasChartTab":true,"isPublished":true,"selectedData":[{"index":0,"entityId":171},{"index":0,"entityId":3},{"index":0,"entityId":172},{"index":0,"entityId":44},{"index":0,"entityId":10},{"index":0,"entityId":137},{"index":0,"entityId":13}],"internalNotes":"","addCountryMode":"add-country"};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/hydropower-consumption.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

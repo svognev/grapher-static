@@ -24,12 +24,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/mobile-cellular-subscriptions-by-country"></figure><noscript id="fallback"><img src="/grapher/exports/mobile-cellular-subscriptions-by-country.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":46,"map":{"mode":"specific","maxYear":2013,"minYear":1978,"projection":"World","targetYear":2013,"variableId":149,"defaultYear":2013,"timeInterval":1,"timelineMode":"timeline","timeTolerance":1,"targetYearMode":"latest","baseColorScheme":"Blues","colorSchemeName":"Blues","isManualBuckets":true,"colorSchemeValues":[20,40,60,80,100,120,140,160,180,200],"defaultProjection":"World","legendDescription":"Subscriptions per 100 people","colorSchemeMinValue":0,"customNumericColors":["#000","#c00","#0c0","#00c","#c0c"]},"tab":"chart","slug":"mobile-cellular-subscriptions-by-country","type":"LineChart","logos":["OWD"],"title":"Mobile cellular subscriptions by country","units":"[{\"property\":\"y\",\"visible\":true,\"title\":\"\",\"unit\":\"per 100 people\",\"format\":\"\"}]","xAxis":{"scaleType":"linear"},"yAxis":{"max":200,"min":0,"scaleType":"linear","labelDistance":-10},"margins":{"top":10,"left":60,"right":10,"bottom":10},"maxTime":2013,"minTime":1978,"version":1,"subtitle":"Subscriptions per 100 people.\n","hasMapTab":true,"originUrl":"https://ourworldindata.org/internet/","variables":[],"chart-name":"Mobile cellular subscriptions by country, *time*","dimensions":[{"id":7,"unit":"per 100 people","order":0,"chartId":46,"property":"y","shortUnit":null,"tolerance":5,"targetYear":2000,"variableId":149,"displayName":"","isProjection":false,"conversionFactor":null}],"hideLegend":false,"hasChartTab":true,"isPublished":true,"iframe-width":"100%","selectedData":[{"index":0,"entityId":171},{"index":0,"entityId":161},{"index":0,"entityId":155},{"index":0,"entityId":102},{"index":0,"entityId":15},{"index":0,"entityId":13},{"index":0,"entityId":1}],"iframe-height":"660px","internalNotes":"","addCountryMode":"add-country","group-by-variables":false,"add-country-control":true};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/mobile-cellular-subscriptions-by-country.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/economic-complexity-index-eci-by-country-ranking"></figure><noscript id="fallback"><img src="/grapher/exports/economic-complexity-index-eci-by-country-ranking.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1512,"map":{"projection":"World","targetYear":2016,"variableId":43015,"legendStepSize":20,"baseColorScheme":"PuBuGn","isManualBuckets":true,"colorSchemeLabels":[],"colorSchemeValues":[-2,-1,0,1,2,3],"defaultProjection":"World","colorSchemeMinValue":-3,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"chart","slug":"economic-complexity-index-eci-by-country-ranking","type":"LineChart","title":"Economic Complexity Index (ECI) by country ranking","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"version":1,"subtitle":"The ECI measures the relative knowledge intensity of an economy. The higher the index, the more economically complex a country is. In 2016, Japan was ranked top using the ECI.  ","hasMapTab":true,"originUrl":"","stackMode":"absolute","dimensions":[{"id":10810,"unit":null,"order":0,"chartId":1512,"property":"y","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":43015,"displayName":null,"isProjection":null,"conversionFactor":null}],"isAutoSlug":true,"hasChartTab":true,"isPublished":true,"selectedData":[{"index":0,"entityId":14},{"index":0,"entityId":86},{"index":0,"entityId":13},{"index":0,"entityId":1},{"index":0,"entityId":171},{"index":0,"entityId":137},{"index":0,"entityId":172},{"index":0,"entityId":150}],"internalNotes":"","addCountryMode":"add-country"};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/economic-complexity-index-eci-by-country-ranking.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

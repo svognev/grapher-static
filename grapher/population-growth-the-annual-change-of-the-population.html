@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/population-growth-the-annual-change-of-the-population"></figure><noscript id="fallback"><img src="/grapher/exports/population-growth-the-annual-change-of-the-population.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1478,"map":{"projection":"World","legendStepSize":20,"colorSchemeLabels":[],"colorSchemeValues":[],"defaultProjection":"World","colorSchemeMinValue":0,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"chart","slug":"population-growth-the-annual-change-of-the-population","type":"LineChart","title":"Population growth: The annual change of the population","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"version":1,"hasMapTab":false,"originUrl":"https://ourworldindata.org/world-population-growth/","stackMode":"absolute","dimensions":[{"id":9846,"unit":"people","order":0,"chartId":1478,"property":"y","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":8391,"displayName":null,"isProjection":null,"conversionFactor":1000},{"id":9847,"unit":"people","order":1,"chartId":1478,"property":"y","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":8408,"displayName":"Annual population change","isProjection":true,"conversionFactor":1000}],"isAutoSlug":true,"hasChartTab":true,"isPublished":true,"selectedData":[{"index":0,"entityId":355},{"index":1,"entityId":355}],"internalNotes":"","addCountryMode":"change-country"};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/population-growth-the-annual-change-of-the-population.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

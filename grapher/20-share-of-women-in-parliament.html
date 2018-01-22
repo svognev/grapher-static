@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/20-share-of-women-in-parliament"></figure><noscript id="fallback"><img src="/grapher/exports/20-share-of-women-in-parliament.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1173,"map":{"projection":"World","targetYear":2017,"variableId":42455,"legendStepSize":20,"baseColorScheme":"BrBG","isManualBuckets":true,"colorSchemeLabels":["No","Yes"],"colorSchemeValues":[0,1],"defaultProjection":"World","legendDescription":"20% Share of women in parliament achieved","customColorsActive":true,"colorSchemeMinValue":-1,"customNumericColors":[],"customCategoryColors":{"No":"#ca2628","Yes":"#6bb537"},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"map","slug":"20-share-of-women-in-parliament","type":"LineChart","title":"20% Share of women in parliament","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"version":1,"subtitle":"This map shows whether women have occupied at least 20% share of seats in parliament, in that year or any previous year. ","hasMapTab":true,"originUrl":"","stackMode":"absolute","dimensions":[{"id":11173,"unit":null,"order":0,"chartId":1173,"property":"y","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":42455,"displayName":"20% Share of women in parliament","isProjection":null,"conversionFactor":null}],"isAutoSlug":true,"hasChartTab":false,"isAutoTitle":true,"isPublished":true,"selectedData":[],"internalNotes":"","addCountryMode":"add-country"};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/20-share-of-women-in-parliament.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

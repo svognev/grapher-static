@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/children-per-woman-vs-population-growth"></figure><noscript id="fallback"><img src="/grapher/exports/children-per-woman-vs-population-growth.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1033,"map":{"projection":"World","targetYear":1980,"variableId":72,"timeTolerance":1,"legendStepSize":20,"baseColorScheme":"BuGn","colorSchemeInvert":false,"colorSchemeLabels":[],"colorSchemeValues":[],"defaultProjection":"World","legendDescription":"","customColorsActive":false,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"chart","note":"","slug":"children-per-woman-vs-population-growth","type":"ScatterPlot","title":"Children per woman vs population growth","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear","labelDistance":-10},"maxTime":2015,"minTime":2015,"version":1,"subtitle":"The rate of natural population increase is the population increase determined by births and deaths. Migration flows are not taken into account.","hasMapTab":false,"originUrl":"https://ourworldindata.org/world-population-growth/","stackMode":null,"dimensions":[{"id":8868,"unit":"live births per woman","order":0,"chartId":1033,"property":"x","shortUnit":null,"tolerance":5,"targetYear":null,"variableId":8388,"displayName":"Children per woman","isProjection":false,"conversionFactor":null},{"id":8869,"unit":"% increase per year","order":1,"chartId":1033,"property":"y","shortUnit":"%","tolerance":5,"targetYear":null,"variableId":8390,"displayName":"Annual Rate of Natural Population Increase","isProjection":false,"conversionFactor":0.1},{"id":8870,"unit":null,"order":2,"chartId":1033,"property":"size","shortUnit":null,"tolerance":5,"targetYear":null,"variableId":72,"displayName":"Total population (Gapminder)","isProjection":false,"conversionFactor":null},{"property":"color","variableId":123}],"entityType":"country","hideLegend":true,"hasChartTab":true,"isPublished":true,"selectedData":[],"internalNotes":"","addCountryMode":"add-country","hideRelativeToggle":false};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/children-per-woman-vs-population-growth.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

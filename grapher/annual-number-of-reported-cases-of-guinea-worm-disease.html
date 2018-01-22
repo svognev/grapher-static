@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/annual-number-of-reported-cases-of-guinea-worm-disease"></figure><noscript id="fallback"><img src="/grapher/exports/annual-number-of-reported-cases-of-guinea-worm-disease.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":224,"map":{"mode":"specific","maxYear":2000,"minYear":1980,"projection":"World","targetYear":1989,"timeRanges":[],"variableId":305,"defaultYear":1989,"isColorblind":false,"timelineMode":"timeline","timeTolerance":1,"legendStepSize":20,"targetYearMode":"normal","baseColorScheme":"BuGn","colorSchemeName":"BuGn","colorSchemeInvert":false,"colorSchemeLabels":[],"defaultProjection":"World","legendDescription":"","legendOrientation":"landscape","customColorsActive":false,"customNumericColors":[],"customCategoryColors":[],"customCategoryLabels":[],"customHiddenCategories":[]},"tab":"chart","slug":"annual-number-of-reported-cases-of-guinea-worm-disease","type":"LineChart","logos":["OWD"],"title":"Annual Number of Reported Cases of Guinea Worm Disease","units":"[{\"property\":\"y\",\"visible\":true,\"title\":\"\",\"unit\":\"Individual cases globally\",\"format\":\"\"}]","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear","labelDistance":-10,"canChangeScaleType":true},"margins":{"top":10,"left":60,"right":10,"bottom":10},"version":1,"hasMapTab":false,"originUrl":"https://ourworldindata.org/eradication-of-diseases/","stackMode":null,"variables":[],"dimensions":[{"id":191,"unit":"Individual cases","order":0,"chartId":224,"property":"y","shortUnit":null,"tolerance":5,"targetYear":2000,"variableId":305,"displayName":"Guinea Worm Cases (Carter Center)","isProjection":false,"conversionFactor":null}],"entityType":"country","hideLegend":true,"hasChartTab":true,"isPublished":true,"iframe-width":"100%","selectedData":[{"color":"#B0171F","index":0,"entityId":355}],"iframe-height":"660px","internalNotes":"","addCountryMode":"disabled","activeLegendKeys":null,"group-by-variables":false};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/annual-number-of-reported-cases-of-guinea-worm-disease.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

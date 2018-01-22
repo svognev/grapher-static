@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/llece-mean-performance-on-the-mathematics-scale-for-6th-grade-students"></figure><noscript id="fallback"><img src="/grapher/exports/llece-mean-performance-on-the-mathematics-scale-for-6th-grade-students.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1303,"map":{"projection":"World","targetYear":2013,"variableId":40099,"legendStepSize":20,"isManualBuckets":true,"colorSchemeLabels":[],"colorSchemeValues":[450,500,550,600,650],"defaultProjection":"World","colorSchemeMinValue":400,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"map","slug":"llece-mean-performance-on-the-mathematics-scale-for-6th-grade-students","type":"LineChart","title":"LLECE: Mean performance on the mathematics scale for 6th grade students","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"version":1,"subtitle":"Average score on the 6th grade mathematics assessment. Means were calculated on a scale with a mean of 500 and a standard deviation of 100 points.","hasMapTab":true,"originUrl":"https://ourworldindata.org/wp-content/uploads/2017/08/ourworldindata_land-per-crop-pin-750x525-400x280.png","stackMode":"absolute","dimensions":[{"id":8216,"unit":null,"order":0,"chartId":1303,"property":"y","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":40099,"displayName":null,"isProjection":null,"conversionFactor":null}],"isAutoSlug":true,"hasChartTab":true,"isPublished":true,"selectedData":[{"index":0,"entityId":148},{"index":0,"entityId":100},{"index":0,"entityId":98}],"internalNotes":"","addCountryMode":"add-country"};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/llece-mean-performance-on-the-mathematics-scale-for-6th-grade-students.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

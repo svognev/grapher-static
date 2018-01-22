@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/biofuels-production-by-region"></figure><noscript id="fallback"><img src="/grapher/exports/biofuels-production-by-region.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1401,"map":{"projection":"World","legendStepSize":20,"colorSchemeLabels":[],"colorSchemeValues":[],"defaultProjection":"World","colorSchemeMinValue":0,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"chart","slug":"biofuels-production-by-region","type":"StackedArea","title":"Biofuel production by region, terawatt-hours per year","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"version":1,"subtitle":"Total biofuel production by region, measured in terawatt-hours (TWh) per year. Biofuel production includes both bioethanol and biodiesel.","hasMapTab":false,"originUrl":"","stackMode":"absolute","dimensions":[{"id":8985,"unit":null,"order":0,"chartId":1401,"property":"y","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":42746,"displayName":null,"isProjection":null,"conversionFactor":null}],"hasChartTab":true,"isPublished":true,"selectedData":[{"color":"#e6332e","index":0,"entityId":25487},{"color":"#3360a9","index":0,"entityId":273},{"color":"#ca2628","index":0,"entityId":34608},{"color":"#ffd53e","index":0,"entityId":35426},{"color":"#5eb77e","index":0,"entityId":35424},{"color":"#34983f","index":0,"entityId":294}],"internalNotes":"","addCountryMode":"disabled"};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/biofuels-production-by-region.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/economic-damage-from-natural-disasters"></figure><noscript id="fallback"><img src="/grapher/exports/economic-damage-from-natural-disasters.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1525,"map":{"projection":"World","legendStepSize":20,"colorSchemeLabels":[],"colorSchemeValues":[],"defaultProjection":"World","colorSchemeMinValue":0,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"chart","slug":"economic-damage-from-natural-disasters","type":"StackedArea","title":"Economic damage from natural disasters","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"version":1,"subtitle":"Global economic damage from natural disasters, differentiated by disaster category and measured in US$ per year.","hasMapTab":false,"originUrl":"","stackMode":"absolute","dimensions":[{"id":10067,"unit":null,"order":0,"chartId":1525,"property":"y","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":3573,"displayName":null,"isProjection":null,"conversionFactor":null}],"entityType":"disaster category","isAutoSlug":true,"hasChartTab":true,"isPublished":true,"selectedData":[{"color":"#fceb8c","index":0,"entityId":34693},{"color":"#ce8ebd","index":0,"entityId":34696},{"color":"#34983f","index":0,"entityId":34689},{"color":"#ed6c2d","index":0,"entityId":34694},{"color":"#f6a324","index":0,"entityId":34697},{"color":"#932834","index":0,"entityId":34690},{"color":"#3360a9","index":0,"entityId":34688},{"color":"#ca2628","index":0,"entityId":34692},{"color":"#818282","index":0,"entityId":34698},{"color":"#2a939b","index":0,"entityId":34695}],"internalNotes":"","addCountryMode":"add-country"};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/economic-damage-from-natural-disasters.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

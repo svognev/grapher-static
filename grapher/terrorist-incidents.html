@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/terrorist-incidents"></figure><noscript id="fallback"><img src="/grapher/exports/terrorist-incidents.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1446,"map":{"projection":"World","targetYear":2016,"variableId":42808,"equalSizeBins":true,"legendStepSize":20,"baseColorScheme":"OrRd","isManualBuckets":true,"colorSchemeLabels":[],"colorSchemeValues":[5,10,25,50,100,250,500,1000,2500,5000],"defaultProjection":"World","legendDescription":"Number of terrorist attacks","colorSchemeMinValue":0,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"chart","slug":"terrorist-incidents","type":"LineChart","title":"Number of terrorism-related incidents","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"version":1,"subtitle":"The total number of terrorism-related incidents per year. The source defines a terrorist attack as: \"the threatened or actual use of illegal force and violence by a non-state actor to attain a political, economic, religious, or social goal through fear, coercion, or intimidation.\"","hasMapTab":true,"originUrl":"https://ourworldindata.org/terrorism/","stackMode":"absolute","dimensions":[{"id":9182,"unit":null,"order":0,"chartId":1446,"property":"y","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":42808,"displayName":null,"isProjection":null,"conversionFactor":null}],"hasChartTab":true,"isPublished":true,"selectedData":[{"index":0,"entityId":355}],"internalNotes":"","addCountryMode":"add-country"};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/terrorist-incidents.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

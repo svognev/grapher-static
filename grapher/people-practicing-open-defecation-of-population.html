@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/people-practicing-open-defecation-of-population"></figure><noscript id="fallback"><img src="/grapher/exports/people-practicing-open-defecation-of-population.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1493,"map":{"projection":"World","targetYear":2015,"variableId":3406,"legendStepSize":20,"baseColorScheme":"OrRd","isManualBuckets":true,"colorSchemeLabels":[],"colorSchemeValues":[10,20,30,40,50,60,70,80,90,100],"defaultProjection":"World","colorSchemeMinValue":0,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"map","slug":"people-practicing-open-defecation-of-population","type":"LineChart","title":"People practicing open defecation (% of population)","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"version":1,"subtitle":"People practicing open defecation refers to the percentage of the population defecating in the open, such as in fields, forest, bushes, open bodies of water, on beaches, in other open spaces or disposed of with solid waste.","hasMapTab":true,"originUrl":"https://ourworldindata.org/water-access-resources-sanitation/","stackMode":"absolute","dimensions":[{"id":9916,"unit":null,"order":0,"chartId":1493,"property":"y","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":3406,"displayName":null,"isProjection":null,"conversionFactor":null}],"isAutoSlug":true,"hasChartTab":true,"isAutoTitle":true,"isPublished":true,"selectedData":[{"index":0,"entityId":171},{"index":0,"entityId":302},{"index":0,"entityId":289},{"index":0,"entityId":137},{"index":0,"entityId":37},{"index":0,"entityId":15}],"internalNotes":"","addCountryMode":"add-country"};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/people-practicing-open-defecation-of-population.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/solar-pv-prices"></figure><noscript id="fallback"><img src="/grapher/exports/solar-pv-prices.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":551,"map":{"projection":"World","targetYear":1980,"variableId":1693,"timeTolerance":1,"legendStepSize":20,"baseColorScheme":"BuGn","colorSchemeInvert":false,"colorSchemeLabels":[],"colorSchemeValues":[],"defaultProjection":"World","legendDescription":"","customColorsActive":false,"customNumericColors":[],"customCategoryColors":[],"customCategoryLabels":[],"customHiddenCategories":[]},"tab":"chart","note":"","slug":"solar-pv-prices","type":"LineChart","title":"Solar PV module prices","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"prefix":"$","scaleType":"linear","labelDistance":-10,"canChangeScaleType":true},"version":1,"subtitle":"Average module price of global photovoltaic (PV) technology, measured in 2016 dollars per watt-peak (2016 $/Wp).","hasMapTab":false,"originUrl":"","stackMode":null,"dimensions":[{"id":11309,"unit":null,"order":0,"chartId":551,"property":"y","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":65423,"displayName":null,"isProjection":null,"conversionFactor":null}],"entityType":"global","hideLegend":true,"sourceDesc":"Lafond et al. (2017); SolarServer","hasChartTab":true,"isPublished":true,"selectedData":[{"index":0,"entityId":355}],"internalNotes":"","addCountryMode":"add-country","hideRelativeToggle":false};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/solar-pv-prices.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

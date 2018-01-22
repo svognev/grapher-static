@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/life-expectancy-of-women-vs-life-expectancy-of-women"></figure><noscript id="fallback"><img src="/grapher/exports/life-expectancy-of-women-vs-life-expectancy-of-women.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":973,"map":{"projection":"World","targetYear":1980,"variableId":72,"timeTolerance":1,"legendStepSize":20,"baseColorScheme":"BuGn","colorSchemeInvert":false,"colorSchemeLabels":[],"colorSchemeValues":[],"defaultProjection":"World","legendDescription":"","customColorsActive":false,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"chart","note":"","slug":"life-expectancy-of-women-vs-life-expectancy-of-women","type":"ScatterPlot","title":"Life expectancy of women vs life expectancy of men","xAxis":{"scaleType":"linear"},"yAxis":{"scaleType":"linear","labelDistance":-10},"maxTime":2015,"minTime":2015,"version":1,"subtitle":"In all countries that lie above the grey line the life expectancy of women is higher than for men. For both genders the life expectancy at birth is shown.","hasMapTab":false,"originUrl":"","stackMode":null,"dimensions":[{"id":6878,"unit":"years","order":0,"chartId":973,"property":"x","shortUnit":null,"tolerance":5,"targetYear":null,"variableId":8381,"displayName":"Life expectancy of men (in years)","isProjection":false,"conversionFactor":null},{"id":6879,"unit":"years","order":1,"chartId":973,"property":"y","shortUnit":null,"tolerance":5,"targetYear":null,"variableId":8382,"displayName":"Life expectancy of women (in years)","isProjection":false,"conversionFactor":null},{"id":6880,"unit":null,"order":2,"chartId":973,"property":"size","shortUnit":null,"tolerance":5,"targetYear":null,"variableId":72,"displayName":"Total population (Gapminder)","isProjection":false,"conversionFactor":null},{"property":"color","variableId":123}],"entityType":"country","hideLegend":true,"hasChartTab":true,"isPublished":true,"selectedData":[],"internalNotes":"","addCountryMode":"add-country","comparisonLine":{"yEquals":"x"},"hideRelativeToggle":false};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/life-expectancy-of-women-vs-life-expectancy-of-women.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

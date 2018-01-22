@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/share-of-workers-working-in-thefinancial-sector-by-gdp-per-capita1960-to-2009"></figure><noscript id="fallback"><img src="/grapher/exports/share-of-workers-working-in-thefinancial-sector-by-gdp-per-capita1960-to-2009.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1774,"map":{"projection":"World","legendStepSize":20,"colorSchemeLabels":[],"colorSchemeValues":[],"defaultProjection":"World","colorSchemeMinValue":0,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"chart","slug":"share-of-workers-working-in-thefinancial-sector-by-gdp-per-capita1960-to-2009","type":"ScatterPlot","title":"Share of workers working in thefinancial sector by GDP per capita,1960 to 2009","xAxis":{"scaleType":"log","canChangeScaleType":true},"yAxis":{"min":0,"scaleType":"linear"},"maxTime":2009,"minTime":1960,"version":1,"hasMapTab":false,"originUrl":"","stackMode":"absolute","dimensions":[{"id":12671,"unit":null,"order":0,"chartId":1774,"property":"y","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":66236,"displayName":null,"isProjection":null,"conversionFactor":null},{"id":12672,"unit":null,"order":1,"chartId":1774,"property":"x","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":8670,"displayName":null,"isProjection":null,"conversionFactor":null},{"id":12673,"unit":null,"order":2,"chartId":1774,"property":"size","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":72,"displayName":null,"isProjection":null,"conversionFactor":null},{"id":12674,"unit":null,"order":3,"chartId":1774,"property":"color","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":123,"displayName":null,"isProjection":null,"conversionFactor":null}],"isAutoSlug":true,"hasChartTab":true,"isPublished":true,"selectedData":[],"internalNotes":"Just for Sophie's Commission work"};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/share-of-workers-working-in-thefinancial-sector-by-gdp-per-capita1960-to-2009.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

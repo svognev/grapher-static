@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/number-of-new-hiv-infections-per-year"></figure><noscript id="fallback"><img src="/grapher/exports/number-of-new-hiv-infections-per-year.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":808,"map":{"mode":"specific","projection":"World","targetYear":2015,"timeRanges":[],"variableId":3495,"defaultYear":1990,"isColorblind":false,"timelineMode":"slider","timeTolerance":1,"legendStepSize":20,"targetYearMode":"latest","baseColorScheme":"BuPu","isManualBuckets":true,"colorSchemeInvert":false,"colorSchemeLabels":["","","","","","","","","",""],"colorSchemeValues":[100,1000,5000,10000,50000,100000,500000,1000000,0,0],"defaultProjection":"World","legendDescription":"","legendOrientation":"portrait","customColorsActive":false,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"chart","note":"","slug":"number-of-new-hiv-infections-per-year","type":"LineChart","logos":["OWD"],"title":"Number of new HIV infections per year","units":"[{\"property\":\"y\",\"visible\":true,\"title\":\"\",\"unit\":\"adults and children are newly infected with HIV\",\"format\":\"\"}]","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"margins":{"top":10,"left":60,"right":10,"bottom":10},"version":1,"timeline":null,"hasMapTab":true,"originUrl":"https://ourworldindata.org/hiv-aids/","stackMode":null,"dimensions":[{"id":2444,"unit":"ages 15+ and children ages 0-14 newly infected with HI","order":0,"chartId":808,"property":"y","shortUnit":null,"tolerance":5,"targetYear":null,"variableId":3495,"displayName":"","isProjection":false,"conversionFactor":null}],"entityType":"country","hideLegend":false,"hasChartTab":true,"isPublished":true,"identityLine":false,"selectedData":[{"index":0,"entityId":167},{"index":0,"entityId":103},{"index":0,"entityId":81}],"internalNotes":"","addCountryMode":"add-country","activeLegendKeys":null,"group-by-variables":false,"hideRelativeToggle":false};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/number-of-new-hiv-infections-per-year.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

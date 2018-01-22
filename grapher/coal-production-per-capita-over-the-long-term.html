@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/coal-production-per-capita-over-the-long-term"></figure><noscript id="fallback"><img src="/grapher/exports/coal-production-per-capita-over-the-long-term.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1395,"map":{"projection":"World","targetYear":2012,"variableId":42761,"legendStepSize":20,"baseColorScheme":"OrRd","isManualBuckets":true,"colorSchemeLabels":[],"colorSchemeValues":[1000,5000,10000,15000,20000,25000,50000,75000,100000,130000],"defaultProjection":"World","colorSchemeMinValue":0,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"chart","slug":"coal-production-per-capita-over-the-long-term","type":"LineChart","title":"Coal production per capita over the long-term","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"version":1,"subtitle":"Average coal production per capita over the long-term, measured in megawatt-hour (MWh) equivalents per person per year.","hasMapTab":true,"originUrl":"https://ourworldindata.org/fossil-fuels/","stackMode":"absolute","dimensions":[{"id":11811,"unit":null,"order":0,"chartId":1395,"property":"y","shortUnit":"MWh","tolerance":null,"targetYear":null,"variableId":42761,"displayName":null,"isProjection":null,"conversionFactor":null}],"isAutoSlug":true,"hasChartTab":true,"isPublished":true,"selectedData":[{"index":0,"entityId":355},{"index":0,"entityId":1},{"index":0,"entityId":13},{"index":0,"entityId":171},{"index":0,"entityId":137}],"internalNotes":"","addCountryMode":"add-country"};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/coal-production-per-capita-over-the-long-term.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

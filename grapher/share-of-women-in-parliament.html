@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/share-of-women-in-parliament"></figure><noscript id="fallback"><img src="/grapher/exports/share-of-women-in-parliament.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1124,"map":{"projection":"World","targetYear":2007,"variableId":38518,"legendStepSize":20,"colorSchemeLabels":[],"colorSchemeValues":[],"defaultProjection":"World","customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"chart","slug":"share-of-women-in-parliament","type":"LineChart","title":"Share of Women in Parliament","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"version":1,"subtitle":"Share of seats held by women in parliament.","hasMapTab":true,"originUrl":"","stackMode":"absolute","dimensions":[{"id":6137,"unit":"","order":0,"chartId":1124,"property":"y","shortUnit":null,"tolerance":5,"targetYear":null,"variableId":38518,"displayName":"","isProjection":false,"conversionFactor":null}],"isAutoSlug":true,"sourceDesc":"ClioInfra Database","hasChartTab":true,"isAutoTitle":true,"isPublished":true,"selectedData":[{"index":0,"entityId":23},{"index":0,"entityId":44},{"index":0,"entityId":13}],"internalNotes":"","addCountryMode":"add-country"};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/share-of-women-in-parliament.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

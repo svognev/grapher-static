@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/contraceptive-prevalence-any-methods-of-women-ages-15-49"></figure><noscript id="fallback"><img src="/grapher/exports/contraceptive-prevalence-any-methods-of-women-ages-15-49.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1373,"map":{"projection":"World","targetYear":2013,"variableId":3356,"timeTolerance":2,"legendStepSize":20,"isManualBuckets":true,"colorSchemeLabels":[],"colorSchemeValues":[10,20,30,40,50,60,70,80,90,100],"defaultProjection":"World","colorSchemeMinValue":0,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"map","slug":"contraceptive-prevalence-any-methods-of-women-ages-15-49","type":"LineChart","title":"Contraceptive prevalence, any methods (% of women ages 15-49)","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"version":1,"hasMapTab":true,"originUrl":"","stackMode":"absolute","dimensions":[{"id":8689,"unit":null,"order":0,"chartId":1373,"property":"y","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":3356,"displayName":null,"isProjection":null,"conversionFactor":null}],"isAutoSlug":true,"hasChartTab":true,"isPublished":true,"selectedData":[{"index":0,"entityId":60},{"index":0,"entityId":31},{"index":0,"entityId":35}],"internalNotes":"","addCountryMode":"add-country"};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/contraceptive-prevalence-any-methods-of-women-ages-15-49.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

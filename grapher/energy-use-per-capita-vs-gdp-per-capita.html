@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/energy-use-per-capita-vs-gdp-per-capita"></figure><noscript id="fallback"><img src="/grapher/exports/energy-use-per-capita-vs-gdp-per-capita.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":587,"map":{"projection":"World","targetYear":1980,"variableId":72,"timeTolerance":1,"baseColorScheme":"BuGn","colorSchemeInvert":false,"colorSchemeLabels":[],"colorSchemeValues":[],"defaultProjection":"World","legendDescription":"","customColorsActive":false,"colorSchemeMinValue":0,"customNumericColors":[],"customCategoryColors":[],"customCategoryLabels":[],"customHiddenCategories":[]},"tab":"chart","note":"","slug":"energy-use-per-capita-vs-gdp-per-capita","type":"ScatterPlot","title":"Energy use per capita vs. GDP per capita","xAxis":{"scaleType":"log","canChangeScaleType":true},"yAxis":{"min":0,"scaleType":"log","labelDistance":-1,"canChangeScaleType":true},"maxTime":2015,"minTime":2015,"version":2,"subtitle":"Annual energy use per capita, measured in kilowatt-hours per person vs. gross domestic product (GDP) per capita, measured as 2011 international-$","hasMapTab":false,"originUrl":"https://ourworldindata.org/energy-production-and-changing-energy-sources/","stackMode":null,"dimensions":[{"property":"y","variableId":2087,"displayName":"Energy use per capita (kg oil equivalent)"},{"property":"x","variableId":2209,"displayName":"GDP per capita (2011 int-$)"},{"property":"size","tolerance":5,"variableId":72,"displayName":"Total population (Gapminder)","isProjection":false},{"property":"color","variableId":123}],"entityType":"country","hideLegend":true,"sourceDesc":"World Bank - World Development Indicators (WDI)","hasChartTab":true,"isPublished":true,"hideTimeline":true,"selectedData":[],"internalNotes":"","addCountryMode":"add-country","hideRelativeToggle":false};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/energy-use-per-capita-vs-gdp-per-capita.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

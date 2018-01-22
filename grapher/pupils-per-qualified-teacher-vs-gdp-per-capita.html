@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/pupils-per-qualified-teacher-vs-gdp-per-capita"></figure><noscript id="fallback"><img src="/grapher/exports/pupils-per-qualified-teacher-vs-gdp-per-capita.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1716,"map":{"projection":"World","legendStepSize":20,"colorSchemeLabels":[],"colorSchemeValues":[],"defaultProjection":"World","colorSchemeMinValue":0,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"chart","slug":"pupils-per-qualified-teacher-vs-gdp-per-capita","type":"ScatterPlot","title":"Pupils per qualified teacher vs GDP per capita","xAxis":{"scaleType":"log","canChangeScaleType":true},"yAxis":{"min":0,"scaleType":"linear"},"maxTime":2014,"minTime":2014,"version":1,"subtitle":"The vertical axis shows the average number of pupils per qualified teacher, based on headcounts of both pupils and teachers (primary education). The horizontal axis shows GDP per capita, adjusting for price differences between countries.","hasMapTab":false,"originUrl":"","stackMode":"absolute","dimensions":[{"id":12315,"unit":null,"order":0,"chartId":1716,"property":"y","shortUnit":null,"tolerance":5,"targetYear":null,"variableId":40911,"displayName":null,"isProjection":null,"conversionFactor":null},{"id":12316,"unit":null,"order":1,"chartId":1716,"property":"x","shortUnit":null,"tolerance":5,"targetYear":null,"variableId":2210,"displayName":null,"isProjection":null,"conversionFactor":null},{"id":12317,"unit":null,"order":2,"chartId":1716,"property":"size","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":72,"displayName":null,"isProjection":null,"conversionFactor":null},{"id":12318,"unit":null,"order":3,"chartId":1716,"property":"color","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":123,"displayName":null,"isProjection":null,"conversionFactor":null}],"isAutoSlug":true,"hasChartTab":true,"isPublished":true,"hideTimeline":true,"selectedData":[],"internalNotes":""};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/pupils-per-qualified-teacher-vs-gdp-per-capita.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/child-mortality-by-income-level-of-country"></figure><noscript id="fallback"><img src="/grapher/exports/child-mortality-by-income-level-of-country.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":197,"map":{"projection":"World","targetYear":1980,"variableId":261,"timeTolerance":1,"legendStepSize":20,"baseColorScheme":"BuGn","colorSchemeLabels":[],"defaultProjection":"World","legendDescription":"","customNumericColors":["#000","#c00","#0c0","#00c","#c0c"],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"chart","slug":"child-mortality-by-income-level-of-country","type":"LineChart","title":"Child mortality by income level of country","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear","labelDistance":-10},"version":1,"subtitle":"The child mortality rate measures the share of children that die before reaching the age of 5.","hasMapTab":false,"originUrl":"https://ourworldindata.org/child-mortality/","stackMode":"absolute","dimensions":[{"id":8556,"unit":"%","order":0,"chartId":197,"property":"y","shortUnit":null,"tolerance":5,"targetYear":2000,"variableId":261,"displayName":"Child Mortality Rate","isProjection":false,"conversionFactor":0.1}],"hideLegend":false,"hasChartTab":true,"isPublished":true,"selectedData":[{"index":0,"entityId":355},{"index":0,"entityId":340},{"index":0,"entityId":327},{"index":0,"entityId":326},{"index":0,"entityId":320}],"internalNotes":"","addCountryMode":"disabled","invertColorScheme":true};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/child-mortality-by-income-level-of-country.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

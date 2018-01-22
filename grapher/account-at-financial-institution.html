@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/account-at-financial-institution"></figure><noscript id="fallback"><img src="/grapher/exports/account-at-financial-institution.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1802,"map":{"projection":"World","targetYear":2014,"variableId":42408,"legendStepSize":20,"baseColorScheme":"PuBu","colorSchemeLabels":[],"colorSchemeValues":[],"defaultProjection":"World","colorSchemeMinValue":0,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"map","slug":"account-at-financial-institution","type":"LineChart","title":"Account at a financial institution (% age 15+)","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"version":1,"subtitle":"Account at a financial institution denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution.","hasMapTab":true,"originUrl":"","stackMode":"absolute","dimensions":[{"id":12810,"unit":null,"order":0,"chartId":1802,"property":"y","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":42408,"displayName":null,"isProjection":null,"conversionFactor":null}],"hasChartTab":true,"isAutoTitle":true,"isPublished":true,"selectedData":[{"index":0,"entityId":34},{"index":0,"entityId":41},{"index":0,"entityId":171},{"index":0,"entityId":170}],"internalNotes":"","addCountryMode":"add-country"};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/account-at-financial-institution.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

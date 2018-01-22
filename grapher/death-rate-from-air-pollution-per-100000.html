@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/death-rate-from-air-pollution-per-100000"></figure><noscript id="fallback"><img src="/grapher/exports/death-rate-from-air-pollution-per-100000.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":489,"map":{"projection":"World","targetYear":2015,"variableId":1618,"timeTolerance":5,"legendStepSize":20,"baseColorScheme":"BuPu","colorSchemeInvert":false,"colorSchemeLabels":[],"colorSchemeValues":[],"defaultProjection":"World","legendDescription":"Death rate from air pollution (per 100,000)","customColorsActive":false,"customNumericColors":[],"customCategoryColors":[],"customCategoryLabels":[],"customHiddenCategories":[]},"tab":"chart","note":"","slug":"death-rate-from-air-pollution-per-100000","type":"LineChart","title":"Death rate from air pollution (per 100,000)","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear","labelDistance":-10},"version":1,"subtitle":"Age-standardised death rate from exposure to air pollution (indoor and ambient outdoor) per 100,000 individuals.","hasMapTab":true,"originUrl":"","stackMode":null,"dimensions":[{"id":9125,"unit":null,"order":0,"chartId":489,"property":"y","shortUnit":null,"tolerance":5,"targetYear":null,"variableId":1618,"displayName":null,"isProjection":false,"conversionFactor":null}],"entityType":"country","hideLegend":false,"hasChartTab":true,"isPublished":true,"selectedData":[{"index":0,"entityId":171},{"index":0,"entityId":137},{"index":0,"entityId":86},{"index":0,"entityId":37},{"index":0,"entityId":12},{"index":0,"entityId":1}],"internalNotes":"","addCountryMode":"add-country","hideRelativeToggle":false};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/death-rate-from-air-pollution-per-100000.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

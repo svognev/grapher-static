@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/energy-intensity-by-sector"></figure><noscript id="fallback"><img src="/grapher/exports/energy-intensity-by-sector.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"map":{"projection":"World","colorSchemeLabels":[],"colorSchemeValues":[],"defaultProjection":"World","colorSchemeMinValue":0,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"chart","slug":"energy-intensity-by-sector","type":"LineChart","title":"Energy intensity by sector","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"version":1,"subtitle":"Energy intensity is measured as the quantity of energy needed to produce one unit of economic output. This is measured in megajoules (MJ) per 2011 international-$. This corrects for inflation and cross-country differences in prices (PPP).","hasMapTab":false,"stackMode":"absolute","dimensions":[{"unit":"MJ/$","property":"y","shortUnit":"MJ/$","variableId":45627,"displayName":"Final energy"},{"unit":"MJ/$","property":"y","variableId":45628,"displayName":"Primary energy"},{"unit":"MJ/$","property":"y","variableId":45629,"displayName":"Agriculture"},{"unit":"MJ/$","property":"y","variableId":45630,"displayName":"Industry"},{"unit":"MJ/$","property":"y","variableId":45632,"displayName":"Services"},{"unit":"MJ/$","property":"y","variableId":45633,"displayName":"Transportation"}],"isAutoSlug":true,"hasChartTab":true,"isPublished":true,"selectedData":[{"index":0,"entityId":13},{"index":1,"entityId":13},{"index":2,"entityId":13},{"index":3,"entityId":13},{"index":4,"entityId":13},{"index":5,"entityId":13}],"addCountryMode":"change-country","id":1914};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/energy-intensity-by-sector.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

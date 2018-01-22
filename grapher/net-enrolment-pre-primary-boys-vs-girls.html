@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/net-enrolment-pre-primary-boys-vs-girls"></figure><noscript id="fallback"><img src="/grapher/exports/net-enrolment-pre-primary-boys-vs-girls.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"map":{"projection":"World","colorSchemeLabels":[],"colorSchemeValues":[],"defaultProjection":"World","colorSchemeMinValue":0,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"chart","slug":"net-enrolment-pre-primary-boys-vs-girls","type":"ScatterPlot","title":"Net enrolment rate, boys vs. girls in pre-primary education","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"maxTime":2015,"minTime":2014,"version":1,"subtitle":"The net enrolment rate in pre-primary education for boys versus girls. This is calculated as the total number of male or female students in the theoretical age group for pre-primary education who are enroled, as a percentage of the total male or female population of that age group.","hasMapTab":false,"stackMode":"absolute","dimensions":[{"property":"y","variableId":41855,"displayName":"Net enrolment rate, pre-primary, boys (%)"},{"property":"x","variableId":41853,"displayName":"Net enrolment rate, pre-primary, girls (%)"},{"property":"size","variableId":72},{"property":"color","variableId":123}],"hasChartTab":true,"isPublished":true,"selectedData":[],"addCountryMode":"add-country","comparisonLine":{},"id":1898};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/net-enrolment-pre-primary-boys-vs-girls.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

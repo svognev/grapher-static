@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/trade-shares-by-type-of-trade"></figure><noscript id="fallback"><img src="/grapher/exports/trade-shares-by-type-of-trade.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1877,"map":{"projection":"World","targetYear":2014,"variableId":66313,"colorSchemeLabels":[],"colorSchemeValues":[],"defaultProjection":"World","colorSchemeMinValue":0,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"chart","slug":"trade-shares-by-type-of-trade","type":"LineChart","title":"Trade with developed and developing countries","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"version":1,"subtitle":"A country's import trade share from and export trade share to developed and developing countries. Export (import) trade shares are calculated as a country's total exports (imports) to developed or developing countries as a share of the exporting (importing) country's GDP. ","hasMapTab":false,"stackMode":"absolute","dimensions":[{"property":"y","variableId":66313,"displayName":"Export trade share to developed countries"},{"property":"y","variableId":66314,"displayName":"Export trade share to developing countries"},{"property":"y","variableId":66315,"displayName":"Import trade share from developed countries "},{"property":"y","variableId":66316,"displayName":"Import trade share from developing countries"}],"hasChartTab":true,"isPublished":true,"lastEditedAt":"2018-01-16T15:15:57.135468+00:00","selectedData":[{"index":0,"entityId":1},{"index":1,"entityId":1},{"index":2,"entityId":1},{"index":3,"entityId":1}],"addCountryMode":"change-country"};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/trade-shares-by-type-of-trade.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

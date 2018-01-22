@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/the-gender-wage-ratio-in-different-income-percentiles"></figure><noscript id="fallback"><img src="/grapher/exports/the-gender-wage-ratio-in-different-income-percentiles.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1476,"map":{"projection":"World","legendStepSize":20,"colorSchemeLabels":[],"colorSchemeValues":[],"defaultProjection":"World","colorSchemeMinValue":0,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"chart","slug":"the-gender-wage-ratio-in-different-income-percentiles","type":"LineChart","title":"The gender wage ratio in different income percentiles","xAxis":{"scaleType":"linear"},"yAxis":{"max":100,"min":0,"scaleType":"linear"},"version":1,"subtitle":"The gender ratio refers to the raw female-male wage ratio. \"Ninetieth percentile\" indicates an income higher than that of 90% of the population - thus, for example, in 2010 a 74% ratio in the ninetieth percentile indicates that the highest earning women made 74% of the hourly wage of the highest earning men.","hasMapTab":false,"originUrl":"","stackMode":"absolute","dimensions":[{"id":10698,"unit":null,"order":0,"chartId":1476,"property":"y","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":42947,"displayName":"Tenth percentile","isProjection":null,"conversionFactor":null},{"id":10699,"unit":null,"order":1,"chartId":1476,"property":"y","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":42948,"displayName":"Fiftieth percentile","isProjection":null,"conversionFactor":null},{"id":10700,"unit":null,"order":2,"chartId":1476,"property":"y","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":42949,"displayName":"Ninetieth percentile","isProjection":null,"conversionFactor":null}],"isAutoSlug":true,"hasChartTab":true,"isPublished":true,"selectedData":[{"index":0,"entityId":13},{"index":1,"entityId":13},{"index":2,"entityId":13}],"internalNotes":"","addCountryMode":"disabled"};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/the-gender-wage-ratio-in-different-income-percentiles.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

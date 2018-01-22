@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/correlation-between-oecd-pisa-reading-test-score-and-un-human-development-index-2012"></figure><noscript id="fallback"><img src="/grapher/exports/correlation-between-oecd-pisa-reading-test-score-and-un-human-development-index-2012.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":76,"map":{"projection":"World","targetYear":2010,"variableId":98,"timeTolerance":10,"legendStepSize":20,"baseColorScheme":"BuGn","colorSchemeInvert":false,"colorSchemeLabels":[],"colorSchemeValues":[],"defaultProjection":"World","legendDescription":"","customColorsActive":false,"customNumericColors":["#000","#c00","#0c0","#00c","#c0c"],"customCategoryColors":[],"customCategoryLabels":[],"customHiddenCategories":[]},"tab":"chart","note":"","slug":"correlation-between-oecd-pisa-reading-test-score-and-un-human-development-index-2012","type":"ScatterPlot","title":"OECD PISA reading test score vs. UN Human Development Index","xAxis":{"max":1,"min":0.5,"scaleType":"linear"},"yAxis":{"max":600,"min":300,"scaleType":"linear"},"maxTime":2012,"minTime":2012,"version":1,"hasMapTab":false,"originUrl":"https://ourworldindata.org/quality-of-education","stackMode":null,"dimensions":[{"id":7396,"unit":null,"order":0,"chartId":76,"property":"y","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":39852,"displayName":null,"isProjection":null,"conversionFactor":null},{"id":7397,"unit":null,"order":1,"chartId":76,"property":"x","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":7263,"displayName":null,"isProjection":null,"conversionFactor":null},{"id":7398,"unit":null,"order":2,"chartId":76,"property":"color","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":123,"displayName":null,"isProjection":null,"conversionFactor":null},{"property":"size","variableId":72}],"entityType":"country","hideLegend":true,"hasChartTab":true,"isPublished":true,"hideTimeline":true,"selectedData":[],"internalNotes":"","addCountryMode":"add-country","hideRelativeToggle":false};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/correlation-between-oecd-pisa-reading-test-score-and-un-human-development-index-2012.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

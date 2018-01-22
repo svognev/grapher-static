@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/gistemp-surface-temperature-anomaly-weighted-by-area"></figure><noscript id="fallback"><img src="/grapher/exports/gistemp-surface-temperature-anomaly-weighted-by-area.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1310,"map":{"projection":"World","targetYear":2017,"variableId":42618,"legendStepSize":20,"baseColorScheme":"Reds","isManualBuckets":true,"colorSchemeLabels":[],"colorSchemeValues":[-2,-1,0,0.5,1,1.5,2,2.5,3,3.5],"defaultProjection":"World","colorSchemeMinValue":-2,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"map","slug":"gistemp-surface-temperature-anomaly-weighted-by-area","type":"LineChart","title":"GISTEMP surface temperature anomaly weighted by area","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"version":1,"subtitle":"Surface temperature anomaly, measured in degrees celcius weighted by area. Temperature anomalies were measured relative to the 1951-1980 global average temperature and were weighted by the area of sub-national grid cell data.","hasMapTab":true,"originUrl":"","stackMode":"absolute","dimensions":[{"id":8244,"unit":null,"order":0,"chartId":1310,"property":"y","shortUnit":"℃","tolerance":null,"targetYear":null,"variableId":42618,"displayName":null,"isProjection":null,"conversionFactor":null}],"isAutoSlug":true,"hasChartTab":true,"isPublished":true,"selectedData":[{"index":0,"entityId":238},{"index":0,"entityId":90},{"index":0,"entityId":225}],"internalNotes":"","addCountryMode":"add-country"};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/gistemp-surface-temperature-anomaly-weighted-by-area.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

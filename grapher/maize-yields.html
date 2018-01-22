@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/maize-yields"></figure><noscript id="fallback"><img src="/grapher/exports/maize-yields.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":890,"map":{"mode":"specific","projection":"World","targetYear":2014,"timeRanges":[],"variableId":8629,"defaultYear":1980,"isColorblind":false,"timelineMode":"slider","timeTolerance":1,"legendStepSize":20,"targetYearMode":"latest","baseColorScheme":"PuRd","isManualBuckets":true,"colorSchemeInvert":false,"colorSchemeLabels":["","","","","","","","","","","",""],"colorSchemeValues":[1,2,3,4,5,6,7,8,10,15,30,50],"defaultProjection":"World","legendDescription":"Maize yields (tonnes per hectare)","legendOrientation":"portrait","customColorsActive":false,"colorSchemeMinValue":0,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"map","note":"","slug":"maize-yields","type":"LineChart","logos":["OWD"],"title":"Maize yields","units":"[{\"property\":\"y\",\"visible\":true,\"title\":\"\",\"unit\":\"tonnes per hectare\",\"format\":\"\"}]","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"suffix":" tonnes","scaleType":"linear","labelDistance":-10},"margins":{"top":10,"left":60,"right":10,"bottom":10},"version":1,"subtitle":"Average maize (corn) yields, measured in tonnes per hectare.","timeline":null,"hasMapTab":true,"originUrl":"https://ourworldindata.org/yields-and-land-use-in-agriculture/","stackMode":null,"dimensions":[{"id":3787,"unit":"tonnes per hectare","order":0,"chartId":890,"property":"y","shortUnit":null,"tolerance":5,"targetYear":null,"variableId":8629,"displayName":"","isProjection":false,"conversionFactor":null}],"entityType":"country","hideLegend":false,"hasChartTab":true,"isPublished":true,"identityLine":false,"selectedData":[{"index":0,"entityId":171},{"index":0,"entityId":79},{"index":0,"entityId":76}],"internalNotes":"","addCountryMode":"add-country","activeLegendKeys":null,"group-by-variables":false,"hideRelativeToggle":false};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/maize-yields.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

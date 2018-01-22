@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/trade-openness-in-europe"></figure><noscript id="fallback"><img src="/grapher/exports/trade-openness-in-europe.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":27,"map":{"projection":"Europe","targetYear":1949,"variableId":35,"timeTolerance":1,"legendStepSize":20,"baseColorScheme":"PuBu","isManualBuckets":true,"colorSchemeInvert":false,"colorSchemeLabels":[],"colorSchemeValues":[10,20,30,40,50,60,300],"defaultProjection":"Europe","legendDescription":"Sum of exports and imports as a % of GDP","colorSchemeMinValue":0,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"chart","slug":"trade-openness-in-europe","type":"LineChart","title":"Trade openness in Europe","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"suffix":"%","scaleType":"linear"},"version":1,"subtitle":"Shown is the sum of exports and imports as a share of GDP","hasMapTab":true,"originUrl":"https://ourworldindata.org/international-trade","stackMode":"absolute","dimensions":[{"id":8329,"unit":null,"order":0,"chartId":27,"property":"y","shortUnit":null,"tolerance":5,"targetYear":null,"variableId":35,"displayName":"Historical European trade","isProjection":false,"conversionFactor":null}],"entityType":"country","hideLegend":false,"hasChartTab":true,"isPublished":true,"selectedData":[{"index":0,"entityId":10},{"index":0,"entityId":9},{"index":0,"entityId":8},{"index":0,"entityId":6},{"index":0,"entityId":3},{"index":0,"entityId":1}],"internalNotes":"","addCountryMode":"add-country"};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/trade-openness-in-europe.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

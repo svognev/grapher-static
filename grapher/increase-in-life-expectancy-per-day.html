@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/increase-in-life-expectancy-per-day"></figure><noscript id="fallback"><img src="/grapher/exports/increase-in-life-expectancy-per-day.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1905,"map":{"projection":"World","colorSchemeLabels":[],"colorSchemeValues":[],"defaultProjection":"World","colorSchemeMinValue":0,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"chart","slug":"increase-in-life-expectancy-per-day","type":"LineChart","title":"Increase in life expectancy per hour by day","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"version":5,"subtitle":"Measures the increase in life expectancy by hours per day, calculated over five year intervals. ","hasMapTab":false,"stackMode":"absolute","dimensions":[{"unit":"hours","property":"y","shortUnit":"hours","variableId":66339}],"sourceDesc":"OWID calculations based on UN Population Division","hasChartTab":true,"isPublished":true,"selectedData":[{"index":0,"entityId":171},{"index":0,"entityId":144},{"index":0,"entityId":137},{"index":0,"entityId":37},{"index":0,"entityId":127},{"index":0,"entityId":12}],"addCountryMode":"add-country"};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/increase-in-life-expectancy-per-day.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

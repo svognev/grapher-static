@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/global-incidence-of-child-labour-2"></figure><noscript id="fallback"><img src="/grapher/exports/global-incidence-of-child-labour-2.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":171,"map":{"projection":"World","targetYear":1980,"variableId":223,"timeTolerance":1,"legendStepSize":20,"baseColorScheme":"BuGn","colorSchemeLabels":[],"defaultProjection":"World","legendDescription":"","customNumericColors":["#000","#c00","#0c0","#00c","#c0c"],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"chart","slug":"global-incidence-of-child-labour-2","type":"LineChart","title":"Global incidence of child labor","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"suffix":"%","scaleType":"linear","labelDistance":-10},"version":1,"subtitle":"Share of children ages 5-17 involved in economic activity for at least one hour in the reference week of the corresponding survey (irrespective of school attendance)","hasMapTab":false,"originUrl":"https://ourworldindata.org/child-labor/","stackMode":"absolute","dimensions":[{"id":7250,"unit":"% girls ages 5-17","order":0,"chartId":171,"property":"y","shortUnit":null,"tolerance":5,"targetYear":2000,"variableId":236,"displayName":null,"isProjection":false,"conversionFactor":null},{"id":7251,"unit":"% boys ages 5-17","order":1,"chartId":171,"property":"y","shortUnit":null,"tolerance":5,"targetYear":2000,"variableId":235,"displayName":null,"isProjection":false,"conversionFactor":null},{"id":7252,"unit":"% children ages 5-17","order":2,"chartId":171,"property":"y","shortUnit":null,"tolerance":5,"targetYear":2000,"variableId":223,"displayName":null,"isProjection":false,"conversionFactor":null}],"hideLegend":false,"hasChartTab":true,"isPublished":true,"selectedData":[{"index":0,"entityId":355},{"index":1,"entityId":355},{"index":2,"entityId":355}],"internalNotes":"","addCountryMode":"disabled","hideTitleAnnotation":true};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/global-incidence-of-child-labour-2.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

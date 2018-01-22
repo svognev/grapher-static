@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/disability-adjusted-life-years-depressive-disorders-age-std-rate"></figure><noscript id="fallback"><img src="/grapher/exports/disability-adjusted-life-years-depressive-disorders-age-std-rate.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1921,"map":{"projection":"World","targetYear":2016,"variableId":62173,"baseColorScheme":"RdPu","colorSchemeLabels":[],"colorSchemeValues":[],"defaultProjection":"World","colorSchemeMinValue":0,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"map","slug":"disability-adjusted-life-years-depressive-disorders-age-std-rate","type":"LineChart","title":"Disability-adjusted life years: Depressive disorders, age-standardized rate","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"version":2,"hasMapTab":true,"stackMode":"absolute","dimensions":[{"property":"y","variableId":62173}],"sourceDesc":"IHME [Global Burden of Disease]","hasChartTab":true,"isPublished":true,"selectedData":[{"index":0,"entityId":235},{"index":0,"entityId":9},{"index":0,"entityId":133}],"addCountryMode":"add-country"};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/disability-adjusted-life-years-depressive-disorders-age-std-rate.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

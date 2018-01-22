@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/official-entrance-age-to-compulsory-education"></figure><noscript id="fallback"><img src="/grapher/exports/official-entrance-age-to-compulsory-education.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1217,"map":{"projection":"World","targetYear":2014,"variableId":41157,"legendStepSize":20,"baseColorScheme":"BuPu","isManualBuckets":true,"colorSchemeInvert":true,"colorSchemeLabels":[],"colorSchemeValues":[4,5,6,7,8],"defaultProjection":"World","colorSchemeMinValue":3,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"map","slug":"official-entrance-age-to-compulsory-education","type":"LineChart","title":"Official entrance age to compulsory education","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"version":1,"hasMapTab":true,"originUrl":"","stackMode":"absolute","dimensions":[{"id":11770,"unit":null,"order":0,"chartId":1217,"property":"y","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":41157,"displayName":"Official entrance age to compulsory education (years)","isProjection":null,"conversionFactor":null}],"isAutoSlug":true,"hasChartTab":true,"isPublished":true,"selectedData":[{"index":0,"entityId":31},{"index":0,"entityId":129},{"index":0,"entityId":77}],"internalNotes":"","addCountryMode":"add-country"};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/official-entrance-age-to-compulsory-education.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

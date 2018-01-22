@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/death-rates-road-accidents"></figure><noscript id="fallback"><img src="/grapher/exports/death-rates-road-accidents.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1584,"map":{"projection":"World","targetYear":2016,"variableId":57523,"equalSizeBins":true,"baseColorScheme":"YlOrRd","isManualBuckets":true,"colorSchemeLabels":[],"colorSchemeValues":[5,10,15,20,25,30,40,50,60,70],"defaultProjection":"World","legendDescription":"Age-standardized death rate from road accidents (per 100,000)","colorSchemeMinValue":0,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"map","slug":"death-rates-road-accidents","type":"LineChart","title":"Road accident death rates (per 100,000)","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"version":1,"subtitle":"Age-standardized death rates from road accidents, measured as the number of deaths per 100,000 individuals. Deaths include those from drivers and passengers, motorcyclists, cyclists and pedestrians. Age-standardization assumes a constant population age & structure to allow for comparisons between countries and with time without the effects of a changingage distribution within a population (e.g. aging).","hasMapTab":true,"originUrl":"https://ourworldindata.org/causes-of-death/","stackMode":"absolute","dimensions":[{"unit":"deaths per 100,000 individuals","property":"y","variableId":57523}],"sourceDesc":"IHME, Global Burden of Disease (GBD)","hasChartTab":true,"isPublished":true,"lastEditedAt":"2018-01-15T10:36:33.354502+00:00","selectedData":[{"index":0,"entityId":112},{"index":0,"entityId":27},{"index":0,"entityId":139}],"internalNotes":"","addCountryMode":"add-country"};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/death-rates-road-accidents.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

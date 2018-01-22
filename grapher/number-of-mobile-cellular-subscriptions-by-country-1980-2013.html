@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/number-of-mobile-cellular-subscriptions-by-country-1980-2013"></figure><noscript id="fallback"><img src="/grapher/exports/number-of-mobile-cellular-subscriptions-by-country-1980-2013.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":60,"slug":"number-of-mobile-cellular-subscriptions-by-country-1980-2013","type":"LineChart","logos":["OWD"],"title":"Number of mobile cellular subscriptions by country, 1980-2013","units":"","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"margins":{"top":"10","left":"100","right":"10","bottom":"10"},"maxTime":2013,"minTime":1980,"version":1,"hasMapTab":false,"originUrl":"","variables":[],"chart-name":"Number of mobile cellular subscriptions by country, 1980-2013","dimensions":[{"id":12,"unit":"","order":0,"chartId":60,"property":"y","shortUnit":null,"tolerance":5,"targetYear":2000,"variableId":74,"displayName":"","isProjection":false,"conversionFactor":null}],"hideLegend":false,"hasChartTab":true,"isPublished":true,"iframe-width":"100%","selectedData":[{"index":0,"entityId":171},{"index":0,"entityId":156},{"index":0,"entityId":137},{"index":0,"entityId":15},{"index":0,"entityId":13},{"index":0,"entityId":1}],"iframe-height":"660px","internalNotes":"","addCountryMode":"add-country","group-by-variables":false,"add-country-control":true};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/number-of-mobile-cellular-subscriptions-by-country-1980-2013.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

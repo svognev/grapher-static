@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/cattle-meat-yields-hectograms-100-grams-per-animal"></figure><noscript id="fallback"><img src="/grapher/exports/cattle-meat-yields-hectograms-100-grams-per-animal.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1025,"map":{"projection":"World","targetYear":2014,"variableId":29904,"timeTolerance":1,"legendStepSize":20,"baseColorScheme":"GnBu","colorSchemeInvert":false,"colorSchemeLabels":[],"colorSchemeValues":[],"defaultProjection":"World","legendDescription":"Cattle meat yield (kilograms per animal)","customColorsActive":false,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"map","note":"","slug":"cattle-meat-yields-hectograms-100-grams-per-animal","type":"LineChart","title":"Cattle meat yields, kilograms per animal","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"suffix":" hg","scaleType":"linear","labelDistance":-10},"version":1,"subtitle":"Average meat yields of cattle (beef and buffalo), measured in kilograms per animal.","hasMapTab":true,"originUrl":"https://ourworldindata.org/meat-and-seafood-production-consumption/","stackMode":null,"dimensions":[{"id":7795,"unit":"kilograms per animal","order":0,"chartId":1025,"property":"y","shortUnit":"kg","tolerance":5,"targetYear":null,"variableId":29904,"displayName":null,"isProjection":false,"conversionFactor":0.1}],"entityType":"country/region","hideLegend":false,"sourceDesc":"UN Food and Agricultural Organization (FAO)","hasChartTab":true,"isPublished":true,"selectedData":[{"index":0,"entityId":450},{"index":0,"entityId":355},{"index":0,"entityId":295},{"index":0,"entityId":277},{"index":0,"entityId":276},{"index":0,"entityId":275},{"index":0,"entityId":273}],"internalNotes":"","addCountryMode":"add-country","hideRelativeToggle":false};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/cattle-meat-yields-hectograms-100-grams-per-animal.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

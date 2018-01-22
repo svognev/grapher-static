@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/deaths-from-hiv-by-age"></figure><noscript id="fallback"><img src="/grapher/exports/deaths-from-hiv-by-age.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1687,"map":{"projection":"World","colorSchemeLabels":[],"colorSchemeValues":[],"defaultProjection":"World","colorSchemeMinValue":0,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"chart","slug":"deaths-from-hiv-by-age","type":"StackedArea","title":"Deaths from HIV/AIDS by age group","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"version":1,"subtitle":"Total number of annual deaths from HIV/AIDS, categorised by broad age groups.","hasMapTab":false,"originUrl":"https://ourworldindata.org/hiv-aids/","stackMode":"absolute","dimensions":[{"unit":"deaths","property":"y","shortUnit":"deaths","variableId":57966,"displayName":"Under 5 years"},{"unit":"deaths","property":"y","shortUnit":"deaths","variableId":57976,"displayName":"70+ years"},{"unit":"deaths","property":"y","shortUnit":"deaths","variableId":57970,"displayName":"5-14 years"},{"unit":"deaths","property":"y","shortUnit":"deaths","variableId":57972,"displayName":"15-49 years"},{"unit":"deaths","property":"y","shortUnit":"deaths","variableId":57974,"displayName":"50-69 years"}],"sourceDesc":"IHME, Global Burden of Disease (GBD)","hasChartTab":true,"isPublished":true,"selectedData":[{"color":"#2a939b","index":1,"entityId":355},{"color":"#ffd53e","index":4,"entityId":355},{"color":"#ca2628","index":3,"entityId":355},{"color":"#c8c8c8","index":2,"entityId":355},{"color":"#3360a9","index":0,"entityId":355}],"internalNotes":"","addCountryMode":"change-country"};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/deaths-from-hiv-by-age.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

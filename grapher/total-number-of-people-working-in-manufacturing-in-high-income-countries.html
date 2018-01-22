@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/total-number-of-people-working-in-manufacturing-in-high-income-countries"></figure><noscript id="fallback"><img src="/grapher/exports/total-number-of-people-working-in-manufacturing-in-high-income-countries.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1766,"map":{"projection":"World","legendStepSize":20,"colorSchemeLabels":[],"colorSchemeValues":[],"defaultProjection":"World","colorSchemeMinValue":0,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"chart","slug":"total-number-of-people-working-in-manufacturing-in-high-income-countries","type":"LineChart","title":"Total number of people working in manufacturing in high income countries","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"minTime":1960,"version":1,"subtitle":"The numbers are cited in thousands.","hasMapTab":false,"originUrl":"","stackMode":"absolute","dimensions":[{"id":12628,"unit":null,"order":0,"chartId":1766,"property":"y","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":66222,"displayName":null,"isProjection":null,"conversionFactor":null}],"isAutoSlug":true,"hasChartTab":true,"isPublished":true,"selectedData":[{"index":0,"entityId":29047},{"index":0,"entityId":48},{"index":0,"entityId":3},{"index":0,"entityId":9},{"index":0,"entityId":8}],"internalNotes":"Only for Sophie's Commission work","addCountryMode":"add-country"};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/total-number-of-people-working-in-manufacturing-in-high-income-countries.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }

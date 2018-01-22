@@ -21,12 +21,13 @@
     </style><noscript><style>
                     figure { display: none !important; }
                 </style></noscript><link rel="stylesheet" href="/grapher/assets/charts.css" /></head><body class="singleChart"><figure data-grapher-src="/grapher/global-fossil-fuel-consumption"></figure><noscript id="fallback"><img src="/grapher/exports/global-fossil-fuel-consumption.svg" /><p>Interactive visualization requires JavaScript</p></noscript><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch"></script><script src="/grapher/assets/charts.js"></script><script>
+        var jsonConfig = {"id":1261,"map":{"projection":"World","legendStepSize":20,"colorSchemeLabels":[],"colorSchemeValues":[],"defaultProjection":"World","colorSchemeMinValue":0,"customNumericColors":[],"customCategoryColors":{},"customCategoryLabels":{},"customHiddenCategories":{}},"tab":"chart","slug":"global-fossil-fuel-consumption","type":"StackedArea","title":"Global fossil fuel consumption","xAxis":{"scaleType":"linear"},"yAxis":{"min":0,"scaleType":"linear"},"version":1,"subtitle":"Global primary energy consumption by fossil fuel source, measured in terrawatt-hours (TWh).","hasMapTab":false,"originUrl":"https://ourworldindata.org/fossil-fuels/","stackMode":"absolute","dimensions":[{"id":10952,"unit":null,"order":0,"chartId":1261,"property":"y","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":1896,"displayName":"Coal","isProjection":null,"conversionFactor":1},{"id":10953,"unit":null,"order":1,"chartId":1261,"property":"y","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":1897,"displayName":"Crude oil","isProjection":null,"conversionFactor":1},{"id":10954,"unit":null,"order":2,"chartId":1261,"property":"y","shortUnit":null,"tolerance":null,"targetYear":null,"variableId":1898,"displayName":"Natural gas","isProjection":null,"conversionFactor":1}],"isAutoSlug":true,"sourceDesc":"Vaclav Smil (2017). Energy Transitions: Global and National Perspective & BP Statistical Review of World Energy","hasChartTab":true,"isPublished":true,"selectedData":[{"color":"#2a939b","index":2,"entityId":355},{"color":"#ed6c2d","index":1,"entityId":355},{"color":"#818282","index":0,"entityId":355}],"internalNotes":"","addCountryMode":"change-country","hideTitleAnnotation":true};
+        var figure = document.getElementsByTagName("figure")[0];
         try {
             window.App = {};
             window.Global = { rootUrl: 'https://ourworldindata.org/grapher' };
-            window.Grapher.embedAll();
+            ChartView.bootstrap({ jsonConfig: jsonConfig, containerNode: figure })
         } catch (err) {
-            var figure = document.getElementsByTagName("figure")[0];
             figure.innerHTML = "<img src=\"/grapher/exports/global-fossil-fuel-consumption.svg\"/><p>Unable to load interactive visualization</p>";
             figure.setAttribute("id", "fallback");
         }
