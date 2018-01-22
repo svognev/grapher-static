@@ -3155,6 +3155,8 @@
 /grapher/1932 /grapher/share-of-population-suffering-from-schizophrenia 302
 /grapher/1933.config.json /grapher/anxiety-disorders-vs-income-inequality.config.json
 /grapher/1933 /grapher/anxiety-disorders-vs-income-inequality 302
+/grapher/1934.config.json /grapher/population-by-per-capita-household-incomes.config.json
+/grapher/1934 /grapher/population-by-per-capita-household-incomes 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004.config.json /grapher/male-and-female-suicide-rate.config.json 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004 /grapher/male-and-female-suicide-rate 302
 /grapher/the-share-of-the-population-suffering-from-depression-around-the-world-221.config.json /grapher/share-of-the-population-suffering-from-depression.config.json 302
