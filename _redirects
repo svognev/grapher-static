@@ -1519,8 +1519,8 @@
 /grapher/1024 /grapher/pig-yields-meat-per-animal-in-hectograms-100-grams 302
 /grapher/1025.config.json /grapher/cattle-meat-yields-hectograms-100-grams-per-animal.config.json
 /grapher/1025 /grapher/cattle-meat-yields-hectograms-100-grams-per-animal 302
-/grapher/1027.config.json /grapher/domestic-cereal-distribution-to-food-animal-feed-and-other-uses.config.json
-/grapher/1027 /grapher/domestic-cereal-distribution-to-food-animal-feed-and-other-uses 302
+/grapher/1027.config.json /grapher/cereal-distribution-to-uses.config.json
+/grapher/1027 /grapher/cereal-distribution-to-uses 302
 /grapher/1029.config.json /grapher/seafood-and-fish-production-thousand-tonnes.config.json
 /grapher/1029 /grapher/seafood-and-fish-production-thousand-tonnes 302
 /grapher/1030.config.json /grapher/per-capita-meat-consumption-by-type-kilograms-per-year.config.json
@@ -3563,8 +3563,8 @@
 /grapher/oil-gas-employees-vs-rig-count-in-the-united-states-1975-2017 /grapher/oil-gas-employees-vs-rig-count-in-the-united-states 302
 /grapher/children-per-woman-fertility-rate-vs-level-of-prosperity-1955-2010.config.json /grapher/children-per-woman-fertility-rate-vs-level-of-prosperity.config.json 302
 /grapher/children-per-woman-fertility-rate-vs-level-of-prosperity-1955-2010 /grapher/children-per-woman-fertility-rate-vs-level-of-prosperity 302
-/grapher/domestic-cereal-allocation-distribution-to-food-feed-and-other-uses-tonnes-per-year.config.json /grapher/domestic-cereal-distribution-to-food-animal-feed-and-other-uses.config.json 302
-/grapher/domestic-cereal-allocation-distribution-to-food-feed-and-other-uses-tonnes-per-year /grapher/domestic-cereal-distribution-to-food-animal-feed-and-other-uses 302
+/grapher/domestic-cereal-allocation-distribution-to-food-feed-and-other-uses-tonnes-per-year.config.json /grapher/cereal-distribution-to-uses.config.json 302
+/grapher/domestic-cereal-allocation-distribution-to-food-feed-and-other-uses-tonnes-per-year /grapher/cereal-distribution-to-uses 302
 /grapher/per-capita-milk-consumption.config.json /grapher/per-capita-milk-consumption-kilograms.config.json 302
 /grapher/per-capita-milk-consumption /grapher/per-capita-milk-consumption-kilograms 302
 /grapher/vegetable-consumption-per-capita-kgyear.config.json /grapher/vegetable-consumption-per-capita-kilograms-per-year.config.json 302
@@ -3617,8 +3617,8 @@
 /grapher/correlation-between-mean-years-of-schooling-and-gdp-per-capita-2000 /grapher/correlation-between-mean-years-of-schooling-and-gdp-per-capita 302
 /grapher/so-emissions.config.json /grapher/so2-emissions.config.json 302
 /grapher/so-emissions /grapher/so2-emissions 302
-/grapher/domestic-cereal-distribution-to-food-animal-feed-and-other-uses-tonnes-per-year.config.json /grapher/domestic-cereal-distribution-to-food-animal-feed-and-other-uses.config.json 302
-/grapher/domestic-cereal-distribution-to-food-animal-feed-and-other-uses-tonnes-per-year /grapher/domestic-cereal-distribution-to-food-animal-feed-and-other-uses 302
+/grapher/domestic-cereal-distribution-to-food-animal-feed-and-other-uses-tonnes-per-year.config.json /grapher/cereal-distribution-to-uses.config.json 302
+/grapher/domestic-cereal-distribution-to-food-animal-feed-and-other-uses-tonnes-per-year /grapher/cereal-distribution-to-uses 302
 /grapher/global-warming-potential-of-greenhouse-gases-over-100-year-timescale.config.json /grapher/global-warming-potential-of-greenhouse-gases-over-100-year-timescale-gwp.config.json 302
 /grapher/global-warming-potential-of-greenhouse-gases-over-100-year-timescale /grapher/global-warming-potential-of-greenhouse-gases-over-100-year-timescale-gwp 302
 /grapher/last-recorded-case-of-polio.config.json /grapher/the-decade-of-the-last-recorded-case-of-paralytic-polio-by-country.config.json 302
@@ -3965,3 +3965,5 @@
 /grapher/gender-gap-in-average-wages /grapher/gender-gap-in-average-wages-ilo 302
 /grapher/the-gender-wage-gap.config.json /grapher/gender-wage-gap-oecd.config.json 302
 /grapher/the-gender-wage-gap /grapher/gender-wage-gap-oecd 302
+/grapher/domestic-cereal-distribution-to-food-animal-feed-and-other-uses.config.json /grapher/cereal-distribution-to-uses.config.json 302
+/grapher/domestic-cereal-distribution-to-food-animal-feed-and-other-uses /grapher/cereal-distribution-to-uses 302
