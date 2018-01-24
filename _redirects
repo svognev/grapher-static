@@ -3173,6 +3173,8 @@
 /grapher/1942 /grapher/number-of-people-severely-food-insecure 302
 /grapher/1943.config.json /grapher/number-of-people-moderately-or-severely-food-insecure.config.json
 /grapher/1943 /grapher/number-of-people-moderately-or-severely-food-insecure 302
+/grapher/1944.config.json /grapher/number-of-people-severely-food-insecure-by-region.config.json
+/grapher/1944 /grapher/number-of-people-severely-food-insecure-by-region 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004.config.json /grapher/male-and-female-suicide-rate.config.json 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004 /grapher/male-and-female-suicide-rate 302
 /grapher/the-share-of-the-population-suffering-from-depression-around-the-world-221.config.json /grapher/share-of-the-population-suffering-from-depression.config.json 302
