@@ -3173,8 +3173,8 @@
 /grapher/1942 /grapher/number-of-people-severely-food-insecure 302
 /grapher/1943.config.json /grapher/number-of-people-moderately-or-severely-food-insecure.config.json
 /grapher/1943 /grapher/number-of-people-moderately-or-severely-food-insecure 302
-/grapher/1944.config.json /grapher/number-of-people-severely-food-insecure-by-region.config.json
-/grapher/1944 /grapher/number-of-people-severely-food-insecure-by-region 302
+/grapher/1944.config.json /grapher/number-of-severely-food-insecure-people-by-region.config.json
+/grapher/1944 /grapher/number-of-severely-food-insecure-people-by-region 302
 /grapher/1945.config.json /grapher/prevalence-of-severe-food-insecurity-by-region.config.json
 /grapher/1945 /grapher/prevalence-of-severe-food-insecurity-by-region 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004.config.json /grapher/male-and-female-suicide-rate.config.json 302
@@ -3987,3 +3987,5 @@
 /grapher/the-gender-wage-gap /grapher/gender-wage-gap-oecd 302
 /grapher/domestic-cereal-distribution-to-food-animal-feed-and-other-uses.config.json /grapher/cereal-distribution-to-uses.config.json 302
 /grapher/domestic-cereal-distribution-to-food-animal-feed-and-other-uses /grapher/cereal-distribution-to-uses 302
+/grapher/number-of-people-severely-food-insecure-by-region.config.json /grapher/number-of-severely-food-insecure-people-by-region.config.json 302
+/grapher/number-of-people-severely-food-insecure-by-region /grapher/number-of-severely-food-insecure-people-by-region 302
