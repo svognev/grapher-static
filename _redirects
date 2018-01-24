@@ -3167,6 +3167,8 @@
 /grapher/1939 /grapher/increase-in-life-expectancy-between-1950-2015-by-hours-per-day 302
 /grapher/1940.config.json /grapher/share-of-population-with-severe-food-insecurity.config.json
 /grapher/1940 /grapher/share-of-population-with-severe-food-insecurity 302
+/grapher/1941.config.json /grapher/share-of-population-with-moderate-or-severe-food-insecurity.config.json
+/grapher/1941 /grapher/share-of-population-with-moderate-or-severe-food-insecurity 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004.config.json /grapher/male-and-female-suicide-rate.config.json 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004 /grapher/male-and-female-suicide-rate 302
 /grapher/the-share-of-the-population-suffering-from-depression-around-the-world-221.config.json /grapher/share-of-the-population-suffering-from-depression.config.json 302
