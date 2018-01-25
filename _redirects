@@ -3223,6 +3223,8 @@
 /grapher/1970 /grapher/average-real-gdp-per-capita-across-owid-regions 302
 /grapher/1971.config.json /grapher/proportion-of-children-developmentally-on-track.config.json
 /grapher/1971 /grapher/proportion-of-children-developmentally-on-track 302
+/grapher/1972.config.json /grapher/world-regions-according-to-maddison.config.json
+/grapher/1972 /grapher/world-regions-according-to-maddison 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004.config.json /grapher/male-and-female-suicide-rate.config.json 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004 /grapher/male-and-female-suicide-rate 302
 /grapher/the-share-of-the-population-suffering-from-depression-around-the-world-221.config.json /grapher/share-of-the-population-suffering-from-depression.config.json 302
