@@ -3193,6 +3193,8 @@
 /grapher/1952 /grapher/number-of-people-requiring-interventions-for-neglected-tropical-diseases 302
 /grapher/1953.config.json /grapher/number-requiring-treatment-for-ntds-by-region.config.json
 /grapher/1953 /grapher/number-requiring-treatment-for-ntds-by-region 302
+/grapher/1954.config.json /grapher/real-gdp-per-capita-in-2011us-multiple-benchmarks-maddison-project-database-2018.config.json
+/grapher/1954 /grapher/real-gdp-per-capita-in-2011us-multiple-benchmarks-maddison-project-database-2018 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004.config.json /grapher/male-and-female-suicide-rate.config.json 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004 /grapher/male-and-female-suicide-rate 302
 /grapher/the-share-of-the-population-suffering-from-depression-around-the-world-221.config.json /grapher/share-of-the-population-suffering-from-depression.config.json 302
