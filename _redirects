@@ -1,4 +1,4 @@
-/grapher/latest /grapher/fatality-rates-due-to-lightning-in-the-us 302
+/grapher/latest /grapher/maddison-data-gdp-per-capita-in-2011us 302
 /grapher/16.config.json /grapher/suicide-rates-by-country.config.json
 /grapher/16 /grapher/suicide-rates-by-country 302
 /grapher/20.config.json /grapher/average-height-of-men-for-selected-countries.config.json
@@ -3227,6 +3227,8 @@
 /grapher/1972 /grapher/world-regions-according-to-maddison 302
 /grapher/1973.config.json /grapher/proportion-with-ict-skills-in-presentations.config.json
 /grapher/1973 /grapher/proportion-with-ict-skills-in-presentations 302
+/grapher/1974.config.json /grapher/child-deaths-un-data-slope-chart.config.json
+/grapher/1974 /grapher/child-deaths-un-data-slope-chart 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004.config.json /grapher/male-and-female-suicide-rate.config.json 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004 /grapher/male-and-female-suicide-rate 302
 /grapher/the-share-of-the-population-suffering-from-depression-around-the-world-221.config.json /grapher/share-of-the-population-suffering-from-depression.config.json 302
