@@ -3183,8 +3183,6 @@
 /grapher/1948 /grapher/agriculture-orientation-index 302
 /grapher/1949.config.json /grapher/share-of-arable-land-which-is-organic.config.json
 /grapher/1949 /grapher/share-of-arable-land-which-is-organic 302
-/grapher/1950.config.json /grapher/trcgdppc.config.json
-/grapher/1950 /grapher/trcgdppc 302
 /grapher/1951.config.json /grapher/heptatitis-death-rate.config.json
 /grapher/1951 /grapher/heptatitis-death-rate 302
 /grapher/1952.config.json /grapher/number-of-people-requiring-interventions-for-neglected-tropical-diseases.config.json
@@ -3223,6 +3221,8 @@
 /grapher/1968 /grapher/pupils-in-grades-2-achieving-minimum-proficiency-in-reading 302
 /grapher/1970.config.json /grapher/average-real-gdp-per-capita-across-owid-regions.config.json
 /grapher/1970 /grapher/average-real-gdp-per-capita-across-owid-regions 302
+/grapher/1971.config.json /grapher/proportion-of-children-developmentally-on-track.config.json
+/grapher/1971 /grapher/proportion-of-children-developmentally-on-track 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004.config.json /grapher/male-and-female-suicide-rate.config.json 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004 /grapher/male-and-female-suicide-rate 302
 /grapher/the-share-of-the-population-suffering-from-depression-around-the-world-221.config.json /grapher/share-of-the-population-suffering-from-depression.config.json 302
