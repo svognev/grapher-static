@@ -3195,8 +3195,8 @@
 /grapher/1954 /grapher/real-gdp-per-capita-in-2011us-multiple-benchmarks-maddison-project-database-2018 302
 /grapher/1955.config.json /grapher/share-of-population-with-drug-use-disorders.config.json
 /grapher/1955 /grapher/share-of-population-with-drug-use-disorders 302
-/grapher/1956.config.json /grapher/historical-real-gdp-per-capita-in-2011us.config.json
-/grapher/1956 /grapher/historical-real-gdp-per-capita-in-2011us 302
+/grapher/1956.config.json /grapher/maddison-data-gdp-per-capita-in-2011us.config.json
+/grapher/1956 /grapher/maddison-data-gdp-per-capita-in-2011us 302
 /grapher/1957.config.json /grapher/share-of-the-population-with-alcohol-use-disorders.config.json
 /grapher/1957 /grapher/share-of-the-population-with-alcohol-use-disorders 302
 /grapher/1958.config.json /grapher/death-rate-unsafe-water-source.config.json
@@ -4019,3 +4019,5 @@
 /grapher/number-of-people-severely-food-insecure-by-region /grapher/number-of-severely-food-insecure-people-by-region 302
 /grapher/number-of-people-requiring-treatment-for-neglected-tropical-diseases.config.json /grapher/number-of-people-requiring-interventions-for-neglected-tropical-diseases.config.json 302
 /grapher/number-of-people-requiring-treatment-for-neglected-tropical-diseases /grapher/number-of-people-requiring-interventions-for-neglected-tropical-diseases 302
+/grapher/historical-real-gdp-per-capita-in-2011us.config.json /grapher/maddison-data-gdp-per-capita-in-2011us.config.json 302
+/grapher/historical-real-gdp-per-capita-in-2011us /grapher/maddison-data-gdp-per-capita-in-2011us 302
