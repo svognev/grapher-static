@@ -229,8 +229,8 @@
 /grapher/208 /grapher/world-health-expenditure-as-share-of-global-gdp 302
 /grapher/209.config.json /grapher/share-of-public-expenditure-on-healthcare-by-country.config.json
 /grapher/209 /grapher/share-of-public-expenditure-on-healthcare-by-country 302
-/grapher/210.config.json /grapher/share-of-out-of-pocket-expenditure-on-healthcare-by-country.config.json
-/grapher/210 /grapher/share-of-out-of-pocket-expenditure-on-healthcare-by-country 302
+/grapher/210.config.json /grapher/share-of-out-of-pocket-expenditure-on-healthcare.config.json
+/grapher/210 /grapher/share-of-out-of-pocket-expenditure-on-healthcare 302
 /grapher/211.config.json /grapher/public-expenditure-on-healthcare-by-country-income-groups.config.json
 /grapher/211 /grapher/public-expenditure-on-healthcare-by-country-income-groups 302
 /grapher/212.config.json /grapher/healthcare-expenditure-vs-gdp.config.json
@@ -4051,3 +4051,5 @@
 /grapher/number-of-people-requiring-treatment-for-neglected-tropical-diseases /grapher/number-of-people-requiring-interventions-for-neglected-tropical-diseases 302
 /grapher/historical-real-gdp-per-capita-in-2011us.config.json /grapher/maddison-data-gdp-per-capita-in-2011us.config.json 302
 /grapher/historical-real-gdp-per-capita-in-2011us /grapher/maddison-data-gdp-per-capita-in-2011us 302
+/grapher/share-of-out-of-pocket-expenditure-on-healthcare-by-country.config.json /grapher/share-of-out-of-pocket-expenditure-on-healthcare.config.json 302
+/grapher/share-of-out-of-pocket-expenditure-on-healthcare-by-country /grapher/share-of-out-of-pocket-expenditure-on-healthcare 302
