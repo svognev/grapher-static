@@ -3249,6 +3249,8 @@
 /grapher/1983 /grapher/school-life-expectancy-in-secondary-education-by-sex 302
 /grapher/1984.config.json /grapher/school-life-expectancy-primary-gender-parity-index-gpi.config.json
 /grapher/1984 /grapher/school-life-expectancy-primary-gender-parity-index-gpi 302
+/grapher/1985.config.json /grapher/net-enrolment-rate-primary-gender-parity-index-gpi.config.json
+/grapher/1985 /grapher/net-enrolment-rate-primary-gender-parity-index-gpi 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004.config.json /grapher/male-and-female-suicide-rate.config.json 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004 /grapher/male-and-female-suicide-rate 302
 /grapher/the-share-of-the-population-suffering-from-depression-around-the-world-221.config.json /grapher/share-of-the-population-suffering-from-depression.config.json 302
