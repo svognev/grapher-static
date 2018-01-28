@@ -3253,6 +3253,8 @@
 /grapher/1985 /grapher/net-enrolment-rate-primary-gender-parity-index-gpi 302
 /grapher/1986.config.json /grapher/primary-completion-rate-gender-parity-index.config.json
 /grapher/1986 /grapher/primary-completion-rate-gender-parity-index 302
+/grapher/1987.config.json /grapher/oda-for-scholarships.config.json
+/grapher/1987 /grapher/oda-for-scholarships 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004.config.json /grapher/male-and-female-suicide-rate.config.json 302
 /grapher/male-and-female-age-adjusted-suicide-rates-for-selected-countries-1950-2004 /grapher/male-and-female-suicide-rate 302
 /grapher/the-share-of-the-population-suffering-from-depression-around-the-world-221.config.json /grapher/share-of-the-population-suffering-from-depression.config.json 302
