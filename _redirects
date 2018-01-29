@@ -2117,8 +2117,8 @@
 /grapher/1370 /grapher/natural-gas-prices 302
 /grapher/1371.config.json /grapher/unmet-need-for-contraception-share-of-married-women-of-reproductive-age.config.json
 /grapher/1371 /grapher/unmet-need-for-contraception-share-of-married-women-of-reproductive-age 302
-/grapher/1372.config.json /grapher/share-of-women-ages-15-49-using-modern-contraceptive-methods.config.json
-/grapher/1372 /grapher/share-of-women-ages-15-49-using-modern-contraceptive-methods 302
+/grapher/1372.config.json /grapher/share-of-women-using-modern-contraceptive-methods.config.json
+/grapher/1372 /grapher/share-of-women-using-modern-contraceptive-methods 302
 /grapher/1373.config.json /grapher/contraceptive-prevalence-any-methods-of-women-ages-15-49.config.json
 /grapher/1373 /grapher/contraceptive-prevalence-any-methods-of-women-ages-15-49 302
 /grapher/1374.config.json /grapher/contraceptive-prevalence-any-methods-vs-modern-methods.config.json
@@ -3863,8 +3863,8 @@
 /grapher/global-primary-energy-consumption-1800-2015 /grapher/global-primary-energy-consumption 302
 /grapher/crude-oil-prices-1861-2015.config.json /grapher/crude-oil-prices.config.json 302
 /grapher/crude-oil-prices-1861-2015 /grapher/crude-oil-prices 302
-/grapher/contraceptive-prevalence-modern-methods-of-women-ages-15-49.config.json /grapher/share-of-women-ages-15-49-using-modern-contraceptive-methods.config.json 302
-/grapher/contraceptive-prevalence-modern-methods-of-women-ages-15-49 /grapher/share-of-women-ages-15-49-using-modern-contraceptive-methods 302
+/grapher/contraceptive-prevalence-modern-methods-of-women-ages-15-49.config.json /grapher/share-of-women-using-modern-contraceptive-methods.config.json 302
+/grapher/contraceptive-prevalence-modern-methods-of-women-ages-15-49 /grapher/share-of-women-using-modern-contraceptive-methods 302
 /grapher/coal-consumption-terrawatt-hours-twh.config.json /grapher/coal-consumption-by-region.config.json 302
 /grapher/coal-consumption-terrawatt-hours-twh /grapher/coal-consumption-by-region 302
 /grapher/coal-production-terrawatt-hours-twh.config.json /grapher/coal-production-by-region.config.json 302
@@ -4089,3 +4089,5 @@
 /grapher/historical-real-gdp-per-capita-in-2011us /grapher/maddison-data-gdp-per-capita-in-2011us 302
 /grapher/share-of-out-of-pocket-expenditure-on-healthcare-by-country.config.json /grapher/share-of-out-of-pocket-expenditure-on-healthcare.config.json 302
 /grapher/share-of-out-of-pocket-expenditure-on-healthcare-by-country /grapher/share-of-out-of-pocket-expenditure-on-healthcare 302
+/grapher/share-of-women-ages-15-49-using-modern-contraceptive-methods.config.json /grapher/share-of-women-using-modern-contraceptive-methods.config.json 302
+/grapher/share-of-women-ages-15-49-using-modern-contraceptive-methods /grapher/share-of-women-using-modern-contraceptive-methods 302
