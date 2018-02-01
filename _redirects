@@ -2705,8 +2705,6 @@
 /grapher/1695 /grapher/deaths-risk-factor-15-49years 302
 /grapher/1696.config.json /grapher/number-of-deaths-by-age-group.config.json
 /grapher/1696 /grapher/number-of-deaths-by-age-group 302
-/grapher/1697.config.json /grapher/total-deaths-by-risk-factor.config.json
-/grapher/1697 /grapher/total-deaths-by-risk-factor 302
 /grapher/1698.config.json /grapher/deaths-risk-factor-50-69years.config.json
 /grapher/1698 /grapher/deaths-risk-factor-50-69years 302
 /grapher/1699.config.json /grapher/gender-wage-gap-vs-gdp-per-capita.config.json
