@@ -2773,8 +2773,8 @@
 /grapher/1729 /grapher/drowning-death-rates 302
 /grapher/1730.config.json /grapher/drowning-death-rates-by-age.config.json
 /grapher/1730 /grapher/drowning-death-rates-by-age 302
-/grapher/1731.config.json /grapher/fire-deaths-by-age-group.config.json
-/grapher/1731 /grapher/fire-deaths-by-age-group 302
+/grapher/1731.config.json /grapher/fire-deaths-by-age.config.json
+/grapher/1731 /grapher/fire-deaths-by-age 302
 /grapher/1732.config.json /grapher/fire-death-rates.config.json
 /grapher/1732 /grapher/fire-death-rates 302
 /grapher/1733.config.json /grapher/fire-death-rates-by-age.config.json
@@ -4103,3 +4103,5 @@
 /grapher/share-of-out-of-pocket-expenditure-on-healthcare-by-country /grapher/share-of-out-of-pocket-expenditure-on-healthcare 302
 /grapher/share-of-women-ages-15-49-using-modern-contraceptive-methods.config.json /grapher/share-of-women-using-modern-contraceptive-methods.config.json 302
 /grapher/share-of-women-ages-15-49-using-modern-contraceptive-methods /grapher/share-of-women-using-modern-contraceptive-methods 302
+/grapher/fire-deaths-by-age-group.config.json /grapher/fire-deaths-by-age.config.json 302
+/grapher/fire-deaths-by-age-group /grapher/fire-deaths-by-age 302
