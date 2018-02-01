@@ -2259,8 +2259,6 @@
 /grapher/1449 /grapher/disposable-household-income-the-income-cutoff-to-the-poorest-decile-vs-mean-income 302
 /grapher/1450.config.json /grapher/alcohol-consumption-vs-gdp-per-capita.config.json
 /grapher/1450 /grapher/alcohol-consumption-vs-gdp-per-capita 302
-/grapher/1452.config.json /grapher/annual-number-of-deaths-by-specific-cause-or-risk-factor.config.json
-/grapher/1452 /grapher/annual-number-of-deaths-by-specific-cause-or-risk-factor 302
 /grapher/1454.config.json /grapher/gender-wage-gap-oecd.config.json
 /grapher/1454 /grapher/gender-wage-gap-oecd 302
 /grapher/1455.config.json /grapher/household-air-pollution-deaths-by-region.config.json
@@ -3931,8 +3929,6 @@
 /grapher/percentage-of-children-214-who-experience-violent-discipline /grapher/percentage-of-children-214-who-experience-violent-discipline-at-home 302
 /grapher/total-alcohol-consumption-per-capita-liters-of-pure-alcohol.config.json /grapher/total-alcohol-consumption-per-capita-litres-of-pure-alcohol.config.json 302
 /grapher/total-alcohol-consumption-per-capita-liters-of-pure-alcohol /grapher/total-alcohol-consumption-per-capita-litres-of-pure-alcohol 302
-/grapher/deaths-by-cause-and-risk-factor.config.json /grapher/annual-number-of-deaths-by-specific-cause-or-risk-factor.config.json 302
-/grapher/deaths-by-cause-and-risk-factor /grapher/annual-number-of-deaths-by-specific-cause-or-risk-factor 302
 /grapher/world-population-with-and-without-haber-bosch-nitrogen.config.json /grapher/world-population-with-and-without-fertilizer.config.json 302
 /grapher/world-population-with-and-without-haber-bosch-nitrogen /grapher/world-population-with-and-without-fertilizer 302
 /grapher/age-standardized-death-rate-from-cardiovascular-diseases.config.json /grapher/age-standardized-death-rate-cardiovascular-disease.config.json 302
