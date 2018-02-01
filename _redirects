@@ -3047,8 +3047,8 @@
 /grapher/1881 /grapher/mismanaged-plastic-waste 302
 /grapher/1882.config.json /grapher/gender-gap-in-average-wages-ilo.config.json
 /grapher/1882 /grapher/gender-gap-in-average-wages-ilo 302
-/grapher/1883.config.json /grapher/population-by-per-capita-household-income.config.json
-/grapher/1883 /grapher/population-by-per-capita-household-income 302
+/grapher/1883.config.json /grapher/population-by-per-capita-household-consumption.config.json
+/grapher/1883 /grapher/population-by-per-capita-household-consumption 302
 /grapher/1884.config.json /grapher/female-share-of-low-pay-earners.config.json
 /grapher/1884 /grapher/female-share-of-low-pay-earners 302
 /grapher/1885.config.json /grapher/cardiovascular-death-rate-vs-gdp-per-capita.config.json
@@ -4099,3 +4099,5 @@
 /grapher/share-of-women-ages-15-49-using-modern-contraceptive-methods /grapher/share-of-women-using-modern-contraceptive-methods 302
 /grapher/fire-deaths-by-age-group.config.json /grapher/fire-deaths-by-age.config.json 302
 /grapher/fire-deaths-by-age-group /grapher/fire-deaths-by-age 302
+/grapher/population-by-per-capita-household-income.config.json /grapher/population-by-per-capita-household-consumption.config.json 302
+/grapher/population-by-per-capita-household-income /grapher/population-by-per-capita-household-consumption 302
