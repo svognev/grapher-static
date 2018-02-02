@@ -8,5 +8,5 @@
 /grapher/exports/*
   Cache-Control: public, max-age=31556926
 
-/grapher/*.json
+/grapher/*
   Access-Control-Allow-Origin: *
