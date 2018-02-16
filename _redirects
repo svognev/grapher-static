@@ -98,7 +98,7 @@
 /grapher/solar-pv-through-time /grapher/solar-pv-prices-vs-cumulative-capacity 302
 /grapher/healthcare-expenditure-per-capita /grapher/annual-healthcare-expenditure-per-capita 302
 /grapher/labor-productivity-in-agriculture-gdpworker /grapher/agriculture-value-added-per-worker-wdi 302
-/grapher/the-health-burden-due-to-communicable-diseases-vs-gdp-per-capita /grapher/health-burden-due-to-communicable-diseases-vs-gdp-per-capita 302
+/grapher/the-health-burden-due-to-communicable-diseases-vs-gdp-per-capita /grapher/disease-burden-to-communicable-diseases-vs-gdp 302
 /grapher/life-expectancy-vs-health-expenditure-over-time /grapher/life-expectancy-vs-health-expenditure 302
 /grapher/renewable-electricity-electricity-production /grapher/share-of-electricity-production-from-renewable-sources 302
 /grapher/the-decline-of-child-mortality-by-HAQ-endpoints /grapher/HAQ-by-level-of-healthcare-spending-endpoints 302
@@ -428,3 +428,4 @@
 /grapher/dalys-from-mental-health-and-substance-use-disorder-by-age /grapher/dalys-from-mental-and-substance-disorder-by-age 302
 /grapher/share-suffering-from-depressive-disorders /grapher/share-suffering-from-depression 302
 /grapher/disease-burden-from-non-communicable-diseases /grapher/disease-burden-from-ncds 302
+/grapher/health-burden-due-to-communicable-diseases-vs-gdp-per-capita /grapher/disease-burden-to-communicable-diseases-vs-gdp 302
