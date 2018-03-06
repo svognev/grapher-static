@@ -5,7 +5,7 @@
         var link = document.createElement('link');
         link.type = 'text/css';
         link.rel = 'stylesheet';
-        link.href = 'https://ourworldindata.org/grapher/assets/charts.css?v=charts.bundle.0ab7af3a683ada66d934.css';
+        link.href = 'https://ourworldindata.org/grapher/assets/charts.css?v=charts.bundle.2e8b821abc54345fbee6.css';
         document.head.appendChild(link);
 
         var hasPolyfill = false;
@@ -28,6 +28,6 @@
             if (hasPolyfill)
                 window.Grapher.embedAll();
         }
-        script.src = 'https://ourworldindata.org/grapher/assets/charts.js?v=charts.bundle.0ab7af3a683ada66d934.js';
+        script.src = 'https://ourworldindata.org/grapher/assets/charts.js?v=charts.bundle.2e8b821abc54345fbee6.js';
         document.head.appendChild(script);
     
