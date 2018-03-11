@@ -426,7 +426,7 @@
 /grapher/annual-deaths-by-cause-percent-2011 /grapher/share-of-deaths-by-cause-2011 302
 /grapher/annual-deaths-by-cause-percent-2016 /grapher/share-of-deaths-by-cause-2016 302
 /grapher/dalys-from-mental-health-and-substance-use-disorder-by-age /grapher/dalys-from-mental-and-substance-disorder-by-age 302
-/grapher/share-suffering-from-depressive-disorders /grapher/share-suffering-from-depression 302
+/grapher/share-suffering-from-depressive-disorders /grapher/share-with-depression 302
 /grapher/disease-burden-from-non-communicable-diseases /grapher/disease-burden-from-ncds 302
 /grapher/health-burden-due-to-communicable-diseases-vs-gdp-per-capita /grapher/disease-burden-to-communicable-diseases-vs-gdp 302
 /grapher/number-of-neonatal-tetanus-cases-who-2017 /grapher/number-of-neonatal-tetanus-cases 302
@@ -438,3 +438,4 @@
 /grapher/number-of-daily-smokers-both-men-and-women-of-all-ages /grapher/number-of-daily-smokers-bounds 302
 /grapher/number-of-daily-smokers /grapher/number-of-daily-smokers-gender 302
 /grapher/number-suffering-from-depression-by-country /grapher/number-with-depression-by-country 302
+/grapher/share-suffering-from-depression /grapher/share-with-depression 302
