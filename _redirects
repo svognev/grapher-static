@@ -411,7 +411,7 @@
 /grapher/fire-deaths-by-age-group /grapher/fire-deaths-by-age 302
 /grapher/population-by-per-capita-household-income /grapher/population-by-per-capita-household-consumption 302
 /grapher/have-countries-completed-a-population-census-in-last-10-years /grapher/completeness-population-census 302
-/grapher/deaths-from-mental-and-substance-abuse-disorders /grapher/deaths-from-mental-and-substance-use-disorders 302
+/grapher/deaths-from-mental-and-substance-abuse-disorders /grapher/deaths-from-substance-use-disorders 302
 /grapher/annual-deaths-from-mental-and-substance-abuse-disorders /grapher/annual-deaths-from-mental-and-substance-use-disorders 302
 /grapher/disability-adjusted-life-years-depressive-disorders /grapher/depression-daly-rates-by-age 302
 /grapher/disability-adjusted-life-years-depressive-disorders-age-std-rate /grapher/dalys-depression-age-std-rate 302
@@ -464,3 +464,4 @@
 /grapher/number-with-mental-and-substance-disorders-by-type /grapher/number-with-mental-and-neurodevelopmental-disorders-by-type 302
 /grapher/drinking-water-services-coverage /grapher/drinking-water-services-coverage-urban 302
 /grapher/drinking-water-service-coverage-in-urban-areas /grapher/drinking-water-service-coverage 302
+/grapher/deaths-from-mental-and-substance-use-disorders /grapher/deaths-from-substance-use-disorders 302
