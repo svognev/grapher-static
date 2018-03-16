@@ -370,7 +370,7 @@
 /grapher/share-of-children-ages-13-15-who-report-being-bullied-last-month /grapher/share-of-children-ages-13-15-who-report-being-bullied 302
 /grapher/children-ages-13-15-who-report-being-in-a-school-fight-last-year /grapher/share-of-children-ages-13-15-who-report-being-in-a-school-fight-last-year 302
 /grapher/annual-number-of-deaths-in-under-5s /grapher/causes-of-death-in-under-5s 302
-/grapher/deaths-from-road-accidents-per-100000 /grapher/death-rates-road-accidents 302
+/grapher/deaths-from-road-accidents-per-100000 /grapher/death-rates-road-incidents 302
 /grapher/staff-compensation-as-share-of-total-expenditure-in-primary-public-education /grapher/gdp-per-capita-vs-staff-compensation-as-share-of-total-expenditure-in-primary-public-education 302
 /grapher/all-staff-compensation-as-of-total-expenditure-in-primary-public-institutions /grapher/staff-compensation-share-primary-spending 302
 /grapher/primary-enrolment-data-available-at-last-cutoff /grapher/is-primary-enrolment-data-available-in-the-global-education-monitoring-report-2018 302
@@ -468,3 +468,4 @@
 /grapher/age-standardized-prevalence-of-autism /grapher/prevalence-of-autistic-spectrum 302
 /grapher/number-of-reported-road-accidents /grapher/number-of-reported-road-incidents 302
 /grapher/road-accident-deaths-by-age /grapher/road-incident-deaths-by-age 302
+/grapher/death-rates-road-accidents /grapher/death-rates-road-incidents 302
