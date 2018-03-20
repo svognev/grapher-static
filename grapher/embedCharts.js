@@ -13,6 +13,7 @@
 
         var loadedScripts = 0;
         function checkReady() {
+            loadedScripts += 1;
             if (loadedScripts == 3) {
                 window.Grapher.embedAll();
             }
