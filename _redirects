@@ -417,7 +417,7 @@
 /grapher/disability-adjusted-life-years-depressive-disorders-age-std-rate /grapher/dalys-depression-age-std-rate 302
 /grapher/deaths-from-smallpox-in-sweden-1774-1843 /grapher/deaths-from-smallpox-per-1000-population 302
 /grapher/deaths-from-smallpox-per-1-million-population /grapher/deaths-from-smallpox-per-1000-population 302
-/grapher/annual-number-of-reported-cases-of-guinea-worm-disease /grapher/global-number-of-reported-dracunculiasis-cases 302
+/grapher/annual-number-of-reported-cases-of-guinea-worm-disease /grapher/global-number-of-reported-guinea-worm-cases 302
 /grapher/countries-that-adopt-and-implement-guarantees-for-public-access-to-information /grapher/countries-that-adopt-guarantees-for-public-access-to-information 302
 /grapher/countries-with-national-human-rights-institutions-in-compliance-with-the-paris-principles /grapher/countries-in-compliance-with-paris-principles 302
 /grapher/progress-in-multistakeholder-monitoring-frameoworks /grapher/progress-in-multistakeholder-monitoring-frameworks 302
@@ -481,3 +481,4 @@
 /grapher/lung-cancer-death-rates-long-term /grapher/lung-cancer-death-rates-males 302
 /grapher/life-expectancy-at-birth /grapher/life-expectancy-at-birth-oecd 302
 /grapher/maximum-antarctic-ozone-hole-area /grapher/antarctic-ozone-hole-area 302
+/grapher/global-number-of-reported-dracunculiasis-cases /grapher/global-number-of-reported-guinea-worm-cases 302
