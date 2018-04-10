@@ -203,7 +203,6 @@
 /grapher/oil-gas-employees-vs-rig-count-in-the-united-states-1975-2017 /grapher/oil-gas-employees-vs-rig-count-in-the-united-states 302
 /grapher/children-per-woman-fertility-rate-vs-level-of-prosperity-1955-2010 /grapher/children-per-woman-fertility-rate-vs-level-of-prosperity 302
 /grapher/domestic-cereal-allocation-distribution-to-food-feed-and-other-uses-tonnes-per-year /grapher/cereal-distribution-to-uses 302
-/grapher/per-capita-milk-consumption /grapher/per-capita-milk-consumption-kilograms 302
 /grapher/vegetable-consumption-per-capita-kgyear /grapher/vegetable-consumption-per-capita-kilograms-per-year 302
 /grapher/fruit-consumption-per-capita-kgyear /grapher/fruit-consumption-per-capita-kilograms-per-year 302
 /grapher/land-cover-distribution-thousand-hectares /grapher/land-cover-distribution-percentage-land-area 302
@@ -485,3 +484,4 @@
 /grapher/domestic-protein-supply-grams-per-person-per-day /grapher/domestic-protein-supply 302
 /grapher/domestic-caloric-supply-kilocalories-per-person-per-day /grapher/domestic-caloric-supply 302
 /grapher/child-mortality /grapher/child-mortality2 302
+/grapher/per-capita-milk-consumption-kilograms /grapher/per-capita-milk-consumption 302
