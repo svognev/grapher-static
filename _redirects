@@ -436,7 +436,7 @@
 /grapher/number-of-daily-smokers /grapher/number-of-daily-smokers-gender 302
 /grapher/number-suffering-from-depression-by-country /grapher/number-with-depression-by-country 302
 /grapher/share-suffering-from-depression /grapher/share-with-depression 302
-/grapher/number-suffering-from-an-eating-disorder-country /grapher/number-an-eating-disorder-countrywith 302
+/grapher/number-suffering-from-an-eating-disorder-country /grapher/number-with-eating-disorder-country 302
 /grapher/number-suffering-from-alcohol-use-disorders-country /grapher/number-with-alcohol-use-disorders-country 302
 /grapher/number-suffering-from-anorexia-and-bulimia-nervosa /grapher/number-with-anorexia-and-bulimia-nervosa 302
 /grapher/number-of-people-suffering-from-depression /grapher/number-of-people-with-depression 302
@@ -501,3 +501,4 @@
 /grapher/armed-forces-personnel-per-100000-people /grapher/armed-forces-personnel-percent 302
 /grapher/overdose-deaths-due-to-opioids-in-the-us-1999-2015 /grapher/drug-overdose-death-rates 302
 /grapher/overdose-deaths-due-to-opioids-usa /grapher/drug-overdose-death-rates 302
+/grapher/number-an-eating-disorder-countrywith /grapher/number-with-eating-disorder-country 302
