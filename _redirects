@@ -298,7 +298,7 @@
 /grapher/coal-production-by-region-terrawatt-hours-twh /grapher/coal-production-by-region 302
 /grapher/oil-production-terrawatt-hours-twh /grapher/oil-production-by-region 302
 /grapher/oil-consumption-terrawatt-hours-twh /grapher/oil-consumption-by-region-terawatt-hours-twh 302
-/grapher/natural-gas-production-terrawatt-hours-twh /grapher/natural-gas-production-by-region-terrawatt-hours-twh 302
+/grapher/natural-gas-production-terrawatt-hours-twh /grapher/natural-gas-production-by-region-terawatt-hours-twh 302
 /grapher/gas-consumption-terra-watt-hours-twh /grapher/natural-gas-consumption-by-region 302
 /grapher/natural-gas-consumption-by-region-terrawatt-hours-twh /grapher/natural-gas-consumption-by-region 302
 /grapher/coal-consumption-per-capita-megawatt-hours-per-person /grapher/coal-consumption-per-capita 302
@@ -514,3 +514,4 @@
 /grapher/global-primary-energy-consumption /grapher/global-primary-energy 302
 /grapher/oil-consumption-by-region-terrawatt-hours-twh /grapher/oil-consumption-by-region-terawatt-hours-twh 302
 /grapher/coal-consumption-by-country-terrawatt-hours-twh /grapher/coal-consumption-by-country-terawatt-hours-twh 302
+/grapher/natural-gas-production-by-region-terrawatt-hours-twh /grapher/natural-gas-production-by-region-terawatt-hours-twh 302
