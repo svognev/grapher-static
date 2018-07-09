@@ -28,12 +28,12 @@
         var script = document.createElement('script');
         script.type = 'text/javascript';
         script.onload = checkReady;
-        script.src = 'https://ourworldindata.org/grapher/assets/commons.bundle.0885398ca21a9d555396.js';
+        script.src = 'https://ourworldindata.org/grapher/assets/commons.bundle.ff3ba6b2d667f6d374cd.js';
         document.head.appendChild(script);
 
         var script = document.createElement('script');
         script.type = 'text/javascript';
         script.onload = checkReady;
-        script.src = 'https://ourworldindata.org/grapher/assets/charts.bundle.0885398ca21a9d555396.js';
+        script.src = 'https://ourworldindata.org/grapher/assets/charts.bundle.ff3ba6b2d667f6d374cd.js';
         document.head.appendChild(script);
     
