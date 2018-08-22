@@ -5,7 +5,7 @@
         var link = document.createElement('link');
         link.type = 'text/css';
         link.rel = 'stylesheet';
-        link.href = 'https://ourworldindata.org/grapher/assets/commons.bundle.b9f051796dbbbb7e5139.css';
+        link.href = 'https://ourworldindata.org/grapher/assets/commons.bundle.64434b0ab00f96edaf37.css';
         document.head.appendChild(link);
 
         var hasPolyfill = false;
@@ -28,12 +28,12 @@
         var script = document.createElement('script');
         script.type = 'text/javascript';
         script.onload = checkReady;
-        script.src = 'https://ourworldindata.org/grapher/assets/commons.bundle.b9f051796dbbbb7e5139.js';
+        script.src = 'https://ourworldindata.org/grapher/assets/commons.bundle.64434b0ab00f96edaf37.js';
         document.head.appendChild(script);
 
         var script = document.createElement('script');
         script.type = 'text/javascript';
         script.onload = checkReady;
-        script.src = 'https://ourworldindata.org/grapher/assets/charts.bundle.b9f051796dbbbb7e5139.js';
+        script.src = 'https://ourworldindata.org/grapher/assets/charts.bundle.64434b0ab00f96edaf37.js';
         document.head.appendChild(script);
     
